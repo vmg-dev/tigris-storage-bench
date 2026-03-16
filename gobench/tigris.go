@@ -53,13 +53,13 @@ func NewClients(ctx context.Context, auth AuthConfig) (*Clients, error) {
 	}, nil
 }
 
-func iadRegion() func(*s3.Options) {
-	return tigrisheaders.WithStaticReplicationRegions([]tigrisheaders.Region{tigrisheaders.IAD})
+func regionOption(location string) func(*s3.Options) {
+	return tigrisheaders.WithStaticReplicationRegions([]tigrisheaders.Region{tigrisheaders.Region(location)})
 }
 
-func (c *Clients) CreateBucket(ctx context.Context, bucket string, enableSnapshot bool) error {
+func (c *Clients) CreateBucket(ctx context.Context, bucket string, enableSnapshot bool, location string) error {
 	input := &s3.CreateBucketInput{Bucket: aws.String(bucket)}
-	options := []func(*s3.Options){iadRegion()}
+	options := []func(*s3.Options){regionOption(location)}
 	var err error
 	if enableSnapshot {
 		_, err = c.Raw.CreateSnapshotEnabledBucket(ctx, input, options...)
@@ -117,10 +117,10 @@ func (c *Clients) CreateSnapshot(ctx context.Context, bucket, name string) (stri
 	return snapshotVersion, nil
 }
 
-func (c *Clients) CreateForkBucket(ctx context.Context, bucket, parentBucket, parentSnapshotVersion string) (bool, error) {
+func (c *Clients) CreateForkBucket(ctx context.Context, bucket, parentBucket, parentSnapshotVersion, location string) (bool, error) {
 	input := &s3.CreateBucketInput{Bucket: aws.String(bucket)}
 	preferredOptions := []func(*s3.Options){
-		iadRegion(),
+		regionOption(location),
 		tigrisheaders.WithEnableSnapshot(),
 		tigrisheaders.WithForkSourceBucket(parentBucket),
 		tigrisheaders.WithHeader("X-Tigris-Fork-Source-Bucket-Snapshot", parentSnapshotVersion),
@@ -130,7 +130,7 @@ func (c *Clients) CreateForkBucket(ctx context.Context, bucket, parentBucket, pa
 	}
 
 	fallbackOptions := []func(*s3.Options){
-		iadRegion(),
+		regionOption(location),
 		tigrisheaders.WithForkSourceBucket(parentBucket),
 		tigrisheaders.WithHeader("X-Tigris-Fork-Source-Bucket-Snapshot", parentSnapshotVersion),
 	}

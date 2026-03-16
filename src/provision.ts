@@ -57,8 +57,8 @@ export async function provisionRun(auth: AuthConfig, options: BenchmarkOptions):
   scenarios.push(snapshotRootScenario);
 
   try {
-    await createBucketOrThrow(normalScenario.bucket, auth, { enableSnapshot: false });
-    await createBucketOrThrow(snapshotRootScenario.bucket, auth, { enableSnapshot: true });
+    await createBucketOrThrow(normalScenario.bucket, auth, { enableSnapshot: false, locations: options.location });
+    await createBucketOrThrow(snapshotRootScenario.bucket, auth, { enableSnapshot: true, locations: options.location });
 
     for (const keySet of [sharedReadKeys, overwriteKeys, deleteKeys, listKeys]) {
       await seedKeys(normalScenario.bucket, keySet, {
@@ -88,7 +88,7 @@ export async function provisionRun(auth: AuthConfig, options: BenchmarkOptions):
         parentSnapshotVersion: snapshotVersion,
       };
 
-      const forkSnapshotEnabled = await createForkBucketOrThrow(childScenario.bucket, parentScenario.bucket, snapshotVersion, auth);
+      const forkSnapshotEnabled = await createForkBucketOrThrow(childScenario.bucket, parentScenario.bucket, snapshotVersion, auth, options.location);
       childScenario.snapshotEnabled = forkSnapshotEnabled;
       if (!forkSnapshotEnabled && depth < options.maxForkDepth) {
         throw new Error(

@@ -1,7 +1,6 @@
-export const LOCATION = {
-  type: 'single',
-  values: 'iad',
-} as const;
+import type { BucketLocations } from '@tigrisdata/storage';
+
+export type { BucketLocations };
 
 export const OPERATION_NAMES = [
   'head-shared',
@@ -30,6 +29,7 @@ export type BenchmarkOptions = {
   keepBuckets: boolean;
   artifactsRoot: string;
   endpoint?: string;
+  location: BucketLocations;
   operations: OperationName[];
 };
 

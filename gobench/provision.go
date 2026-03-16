@@ -77,10 +77,10 @@ func ProvisionRun(ctx context.Context, clients *Clients, options BenchmarkOption
 		}
 	}
 
-	if err := clients.CreateBucket(ctx, scenarios[0].Bucket, false); err != nil {
+	if err := clients.CreateBucket(ctx, scenarios[0].Bucket, false, options.Location); err != nil {
 		return BenchmarkManifest{}, err
 	}
-	if err := clients.CreateBucket(ctx, scenarios[1].Bucket, true); err != nil {
+	if err := clients.CreateBucket(ctx, scenarios[1].Bucket, true, options.Location); err != nil {
 		_ = CleanupRun(ctx, clients, cleanupManifest())
 		return BenchmarkManifest{}, err
 	}
@@ -116,7 +116,7 @@ func ProvisionRun(ctx context.Context, clients *Clients, options BenchmarkOption
 			ParentSnapshotVersion: snapshotVersion,
 		}
 
-		snapshotEnabled, err := clients.CreateForkBucket(ctx, child.Bucket, parentScenario.Bucket, snapshotVersion)
+		snapshotEnabled, err := clients.CreateForkBucket(ctx, child.Bucket, parentScenario.Bucket, snapshotVersion, options.Location)
 		if err != nil {
 			_ = CleanupRun(ctx, clients, cleanupManifest())
 			return BenchmarkManifest{}, err

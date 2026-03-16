@@ -2,7 +2,7 @@ import 'dotenv/config';
 
 import { resolve } from 'node:path';
 
-import { OPERATION_NAMES, type AuthConfig, type BenchmarkOptions, type OperationName } from './types.js';
+import { OPERATION_NAMES, type AuthConfig, type BenchmarkOptions, type BucketLocations, type OperationName } from './types.js';
 
 const DEFAULTS: BenchmarkOptions = {
   prefix: 'tigris-bench',
@@ -19,6 +19,7 @@ const DEFAULTS: BenchmarkOptions = {
   keepBuckets: false,
   artifactsRoot: resolve(process.cwd(), 'artifacts'),
   endpoint: process.env.TIGRIS_STORAGE_ENDPOINT,
+  location: { type: 'single', values: 'iad' },
   operations: [...OPERATION_NAMES],
 };
 
@@ -45,6 +46,7 @@ Benchmark options:
   --delete-count <n>            Seed count for delete fixtures (default: ${DEFAULTS.deleteCount})
   --list-object-count <n>       Number of objects under the list prefix (default: ${DEFAULTS.listObjectCount})
   --operations <csv>            Comma-separated subset of: ${OPERATION_NAMES.join(', ')}
+  --location <region>           Bucket location region or "global" (default: iad)
   --artifacts-root <path>       Directory for manifests and reports (default: ${DEFAULTS.artifactsRoot})
   --endpoint <url>              Override TIGRIS_STORAGE_ENDPOINT
   --keep-buckets                Skip automatic cleanup after the run
@@ -93,6 +95,17 @@ function parseInteger(value: string | boolean | undefined, name: string, fallbac
     throw new Error(`Invalid ${name}: ${value}`);
   }
   return parsed;
+}
+
+function parseLocation(value: string | boolean | undefined): BucketLocations {
+  if (!value || value === true) {
+    return DEFAULTS.location;
+  }
+  const region = String(value).trim();
+  if (region === 'global') {
+    return { type: 'global' };
+  }
+  return { type: 'single', values: region } as BucketLocations;
 }
 
 function parseOperations(value: string | boolean | undefined): OperationName[] {
@@ -149,6 +162,7 @@ export function loadBenchmarkOptions(options: Record<string, string | boolean>):
     keepBuckets: Boolean(options['keep-buckets']),
     artifactsRoot: typeof options['artifacts-root'] === 'string' ? resolve(String(options['artifacts-root'])) : DEFAULTS.artifactsRoot,
     endpoint: typeof options.endpoint === 'string' ? options.endpoint : DEFAULTS.endpoint,
+    location: parseLocation(options.location),
     operations: parseOperations(options.operations),
   };
 }

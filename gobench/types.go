@@ -37,6 +37,7 @@ type BenchmarkOptions struct {
 	KeepBuckets     bool            `json:"keepBuckets"`
 	ArtifactsRoot   string          `json:"artifactsRoot"`
 	Endpoint        string          `json:"endpoint,omitempty"`
+	Location        string          `json:"location"`
 	Operations      []OperationName `json:"operations"`
 }
 
