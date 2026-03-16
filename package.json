@@ -1,0 +1,21 @@
+{
+  "name": "tigris-storage-bench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Benchmark Tigris object storage bucket performance across normal, snapshot-enabled, and layered fork buckets.",
+  "scripts": {
+    "benchmark": "tsx src/cli.ts benchmark",
+    "cleanup": "tsx src/cli.ts cleanup",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tigrisdata/storage": "^2.15.5",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
