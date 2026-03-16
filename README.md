@@ -6,7 +6,12 @@ This repo benchmarks Tigris object storage across:
 - A snapshot-enabled root bucket with no fork parents
 - A configurable chain of fork buckets, where each child is forked from the previous bucket
 
-All buckets are created as single-region buckets in `iad`, using the Tigris JavaScript SDK.
+All buckets are created as single-region buckets in `iad`.
+
+There are now two implementations in the same repo:
+
+- TypeScript using `@tigrisdata/storage`
+- Go using `github.com/tigrisdata/storage-go`
 
 The default benchmark focuses on 1 KB objects and reports how latency changes as you add fork depth:
 
@@ -32,6 +37,7 @@ That split is intentional:
 ## Requirements
 
 - Node.js 22+
+- Go 1.25+
 - A Tigris access key and secret
 
 ## Setup
@@ -43,6 +49,8 @@ cp .env.example .env
 
 Populate `.env` with your Tigris credentials.
 
+The Go runner also reads `.env` if present.
+
 ## Run
 
 This provisions fresh buckets, runs the suite, writes JSON and Markdown reports under `artifacts/`, and then deletes the buckets unless you opt out.
@@ -53,10 +61,17 @@ Each operation is isolated into its own fresh bucket set. Bucket creation, snaps
 npm run benchmark -- --prefix tigris-bench --max-fork-depth 3
 ```
 
+Go:
+
+```bash
+npm run benchmark:go -- --prefix tigris-bench-go --max-fork-depth 3
+```
+
 Useful options:
 
 ```bash
 npm run benchmark -- --help
+go run ./cmd/tigris-storage-bench-go benchmark --help
 ```
 
 Examples:
@@ -70,6 +85,9 @@ npm run benchmark -- --prefix tigris-bench --concurrency 8
 
 # Fewer iterations while validating credentials
 npm run benchmark -- --iterations 20 --warmup 3
+
+# Run the Go version
+npm run benchmark:go -- --iterations 20 --warmup 3
 ```
 
 ## Cleanup
@@ -80,6 +98,12 @@ If you used `--keep-buckets`, remove the run later with:
 npm run cleanup -- --manifest artifacts/<run-id>/manifest.json
 ```
 
+Go cleanup for a kept suite:
+
+```bash
+npm run cleanup:go -- --suite artifacts-go/<run-id>/suite.json
+```
+
 ## Output
 
 Each run creates:
@@ -88,6 +112,8 @@ Each run creates:
 - `artifacts/<run-id>/results.json`: raw benchmark results
 - `artifacts/<run-id>/summary.md`: compact summary with per-op latency and throughput tables
 
+The Go runner writes the same structure under `artifacts-go/`, with a top-level `suite.json` pointing at the per-operation isolated runs.
+
 The Markdown summary includes a ratio against the `normal` bucket, which makes it easier to spot whether snapshot support or additional fork depth is the larger cost.
 
 ## Notes
@@ -95,3 +121,4 @@ The Markdown summary includes a ratio against the `normal` bucket, which makes i
 - Buckets are created with `locations: { type: 'single', values: 'iad' }`.
 - The harness attempts to create fork buckets with snapshots enabled so they can act as parents for deeper forks. If Tigris rejects that in your account or region, the benchmark exits with a clear error instead of silently flattening the fork chain.
 - Mutable ops are benchmarked only after provisioning a fresh run, so overwrite and delete measurements always start from a clean inherited state.
+- The Go harness intentionally sends the exact fork snapshot header used by the JavaScript SDK when creating fork buckets, rather than relying on higher-level helper behavior that abstracts it differently.

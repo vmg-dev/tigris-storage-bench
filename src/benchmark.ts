@@ -126,10 +126,11 @@ export async function runBenchmarks(auth: AuthConfig, manifest: BenchmarkManifes
           execute = async (item) => listPrefixOrThrow(bucket, item.key!, auth);
           break;
         case 'put-new':
-          items = Array.from({ length: manifest.options.iterations }, (_, index) => ({
+          items = Array.from({ length: manifest.options.iterations + manifest.options.warmup }, (_, index) => ({
             key: `bench/put-new/${scenario.id}/iter-${String(index).padStart(4, '0')}.bin`,
             body: createPayload(manifest.options.objectSizeBytes, `put-new:${scenario.id}:${index}`),
           }));
+          ({ warmupItems, benchmarkItems } = splitWarmupAndBenchmarkItems(items, manifest.options.warmup, manifest.options.iterations));
           execute = async (item) => putObjectOrThrow(bucket, item.key!, item.body!, auth, true);
           break;
         case 'put-overwrite-seeded':
