@@ -27,6 +27,7 @@ Benchmark options:
   --delete-count <n>            Seed count for delete fixtures (default: 50)
   --list-object-count <n>       Number of objects under the list prefix (default: 128)
   --operations <csv>            Comma-separated subset of: %s
+  --location <region>           Bucket location region (default: iad)
   --artifacts-root <path>       Directory for manifests and reports (default: ./artifacts-go)
   --endpoint <url>              Override TIGRIS_STORAGE_ENDPOINT
   --keep-buckets                Skip automatic cleanup after the run
@@ -58,6 +59,7 @@ func defaultBenchmarkOptions() BenchmarkOptions {
 		KeepBuckets:     false,
 		ArtifactsRoot:   filepath.Join(".", "artifacts-go"),
 		Endpoint:        os.Getenv("TIGRIS_STORAGE_ENDPOINT"),
+		Location:        "iad",
 		Operations:      append([]OperationName(nil), OperationNames...),
 	}
 }
@@ -79,6 +81,7 @@ func ParseBenchmarkArgs(args []string) (BenchmarkOptions, error) {
 	deleteCount := fs.Int("delete-count", defaults.DeleteCount, "")
 	listObjectCount := fs.Int("list-object-count", defaults.ListObjectCount, "")
 	operations := fs.String("operations", strings.Join(operationNameStrings(), ","), "")
+	location := fs.String("location", defaults.Location, "")
 	artifactsRoot := fs.String("artifacts-root", defaults.ArtifactsRoot, "")
 	endpoint := fs.String("endpoint", defaults.Endpoint, "")
 	keepBuckets := fs.Bool("keep-buckets", defaults.KeepBuckets, "")
@@ -112,6 +115,7 @@ func ParseBenchmarkArgs(args []string) (BenchmarkOptions, error) {
 		KeepBuckets:     *keepBuckets,
 		ArtifactsRoot:   *artifactsRoot,
 		Endpoint:        *endpoint,
+		Location:        *location,
 		Operations:      parsedOps,
 	}, nil
 }

@@ -10,7 +10,7 @@ import {
   type BucketLocations,
 } from '@tigrisdata/storage';
 
-import { LOCATION, type AuthConfig } from './types.js';
+import type { AuthConfig } from './types.js';
 
 type BucketConfig = AuthConfig & { bucket: string };
 
@@ -28,12 +28,11 @@ export async function createBucketOrThrow(
     enableSnapshot?: boolean;
     sourceBucketName?: string;
     sourceBucketSnapshot?: string;
-    locations?: BucketLocations;
+    locations: BucketLocations;
   },
 ): Promise<void> {
   const result = await createBucket(bucket, {
     ...options,
-    locations: options?.locations ?? LOCATION,
     config: auth,
   });
 
@@ -47,12 +46,13 @@ export async function createForkBucketOrThrow(
   parentBucket: string,
   parentSnapshotVersion: string,
   auth: AuthConfig,
+  location: BucketLocations,
 ): Promise<boolean> {
   const preferred = await createBucket(bucket, {
     enableSnapshot: true,
     sourceBucketName: parentBucket,
     sourceBucketSnapshot: parentSnapshotVersion,
-    locations: LOCATION,
+    locations: location,
     config: auth,
   });
 
@@ -63,7 +63,7 @@ export async function createForkBucketOrThrow(
   const fallback = await createBucket(bucket, {
     sourceBucketName: parentBucket,
     sourceBucketSnapshot: parentSnapshotVersion,
-    locations: LOCATION,
+    locations: location,
     config: auth,
   });
 
