@@ -1,0 +1,45 @@
+{
+  "runId": "tigris-placement-smoke-put-new-2026-04-08T16-16-48-264Z-187a8a26",
+  "createdAt": "2026-04-08T16:16:48.525Z",
+  "options": {
+    "prefix": "tigris-placement-smoke-put-new",
+    "objectSizesBytes": [
+      1024
+    ],
+    "concurrencies": [
+      1
+    ],
+    "iterations": 3,
+    "warmup": 1,
+    "listObjectCount": 128,
+    "keepBuckets": false,
+    "artifactsRoot": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-smoke-2026-04-08T16-16-48-261Z-be70ebaa",
+    "endpoint": "https://t3.storage.dev",
+    "operations": [
+      "put-new"
+    ],
+    "singleRegion": "iad",
+    "multiRegion": "usa"
+  },
+  "scenarios": [
+    {
+      "id": "single-iad",
+      "label": "single/iad",
+      "bucket": "tigris-placement-smoke-put-new-single-iad-d9fcb3b3",
+      "locations": {
+        "type": "single",
+        "values": "iad"
+      }
+    },
+    {
+      "id": "multi-usa",
+      "label": "multi/usa",
+      "bucket": "tigris-placement-smoke-put-new-multi-usa-a3dcf596",
+      "locations": {
+        "type": "multi",
+        "values": "usa"
+      }
+    }
+  ],
+  "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-smoke-2026-04-08T16-16-48-261Z-be70ebaa/tigris-placement-smoke-put-new-2026-04-08T16-16-48-264Z-187a8a26"
+}

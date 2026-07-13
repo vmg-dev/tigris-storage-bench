@@ -1,0 +1,3246 @@
+{
+  "runId": "tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214",
+  "createdAt": "2026-04-08T16:23:33.298Z",
+  "results": [
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 8.123192000000017,
+        "maxMs": 29.235767000000124,
+        "meanMs": 14.193266450000033,
+        "p50Ms": 11.699149999999918,
+        "p95Ms": 25.798909000000094,
+        "p99Ms": 29.235767000000124,
+        "opsPerSecond": 70.43842105939736,
+        "totalWallMs": 283.93595000000005
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 7.361116999999467,
+        "maxMs": 31.364950000000135,
+        "meanMs": 14.98791040000001,
+        "p50Ms": 13.225464000000102,
+        "p95Ms": 29.296591000000262,
+        "p99Ms": 31.364950000000135,
+        "opsPerSecond": 66.70885601556512,
+        "totalWallMs": 299.8102680000002
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 7.92557399999896,
+        "maxMs": 27.151668999998947,
+        "meanMs": 12.366753149999749,
+        "p50Ms": 9.502371000000494,
+        "p95Ms": 20.46414200000072,
+        "p99Ms": 27.151668999998947,
+        "opsPerSecond": 307.08336138667016,
+        "totalWallMs": 65.12889500000165
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 8.024927999998908,
+        "maxMs": 28.801375000000917,
+        "meanMs": 11.25934285000012,
+        "p50Ms": 9.742599999999584,
+        "p95Ms": 16.977711999999883,
+        "p99Ms": 28.801375000000917,
+        "opsPerSecond": 309.3715574679968,
+        "totalWallMs": 64.64718399999947
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 7.787323999998989,
+        "maxMs": 89.66919899999994,
+        "meanMs": 23.528823349999858,
+        "p50Ms": 15.207830999999715,
+        "p95Ms": 82.67782499999885,
+        "p99Ms": 89.66919899999994,
+        "opsPerSecond": 222.29861637673358,
+        "totalWallMs": 89.96907099999953
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 10.056541000001744,
+        "maxMs": 66.02648699999918,
+        "meanMs": 24.197952149999946,
+        "p50Ms": 13.54605200000151,
+        "p95Ms": 63.62458799999877,
+        "p99Ms": 66.02648699999918,
+        "opsPerSecond": 301.36021948667235,
+        "totalWallMs": 66.36576000000059
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 11.478277000001981,
+        "maxMs": 126.66397599999982,
+        "meanMs": 49.17278519999945,
+        "p50Ms": 32.275540999999066,
+        "p95Ms": 106.38669499999742,
+        "p99Ms": 126.66397599999982,
+        "opsPerSecond": 157.3894752084033,
+        "totalWallMs": 127.07330000000002
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 17.400416000000405,
+        "maxMs": 89.87351900000067,
+        "meanMs": 40.275705199999535,
+        "p50Ms": 34.56327500000043,
+        "p95Ms": 76.41529199999786,
+        "p99Ms": 89.87351900000067,
+        "opsPerSecond": 221.14736738655145,
+        "totalWallMs": 90.43743199999881
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 19.39897899999778,
+        "maxMs": 110.48971199999869,
+        "meanMs": 42.14468785000008,
+        "p50Ms": 28.37459100000342,
+        "p95Ms": 108.26835199999914,
+        "p99Ms": 110.48971199999869,
+        "opsPerSecond": 178.72414835620378,
+        "totalWallMs": 111.90429599999698
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 16.22836499999903,
+        "maxMs": 76.91246200000023,
+        "meanMs": 32.18945930000027,
+        "p50Ms": 27.480740999999398,
+        "p95Ms": 60.18716800000038,
+        "p99Ms": 76.91246200000023,
+        "opsPerSecond": 258.0183890996089,
+        "totalWallMs": 77.51385499999742
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 7.003115999999864,
+        "maxMs": 25.316297999997914,
+        "meanMs": 9.725896749999446,
+        "p50Ms": 8.35896099999809,
+        "p95Ms": 18.371721000003163,
+        "p99Ms": 25.316297999997914,
+        "opsPerSecond": 102.79826330146818,
+        "totalWallMs": 194.55581600000005
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 7.204132999999274,
+        "maxMs": 17.996839999999793,
+        "meanMs": 9.933277449999514,
+        "p50Ms": 9.060980999995081,
+        "p95Ms": 15.662488000001758,
+        "p99Ms": 17.996839999999793,
+        "opsPerSecond": 100.65474857070365,
+        "totalWallMs": 198.69902100000036
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 7.710858999998891,
+        "maxMs": 65.52748900000006,
+        "meanMs": 14.236436250001134,
+        "p50Ms": 10.048879000001762,
+        "p95Ms": 20.94765500000358,
+        "p99Ms": 65.52748900000006,
+        "opsPerSecond": 187.56936197774593,
+        "totalWallMs": 106.6272220000028
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 8.329936000001908,
+        "maxMs": 28.53655499999877,
+        "meanMs": 14.272672549998969,
+        "p50Ms": 13.067338000000746,
+        "p95Ms": 27.80624099999841,
+        "p99Ms": 28.53655499999877,
+        "opsPerSecond": 264.966426567778,
+        "totalWallMs": 75.48126100000081
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 11.477468999997654,
+        "maxMs": 40.02238999999827,
+        "meanMs": 25.022553049999622,
+        "p50Ms": 21.976918000000296,
+        "p95Ms": 37.928437000002305,
+        "p99Ms": 40.02238999999827,
+        "opsPerSecond": 290.90361557412376,
+        "totalWallMs": 68.75129400000151
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 9.657556999998633,
+        "maxMs": 30.446695999999065,
+        "meanMs": 16.19106749999919,
+        "p50Ms": 14.379391000002215,
+        "p95Ms": 26.572015000005194,
+        "p99Ms": 30.446695999999065,
+        "opsPerSecond": 446.77168809602836,
+        "totalWallMs": 44.76559399999678
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 7.353632999998808,
+        "maxMs": 50.444415999998455,
+        "meanMs": 26.514092250000612,
+        "p50Ms": 22.8135209999964,
+        "p95Ms": 49.253781999999774,
+        "p99Ms": 50.444415999998455,
+        "opsPerSecond": 394.7969941025147,
+        "totalWallMs": 50.658947000003536
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 13.337763999996241,
+        "maxMs": 32.07477900000231,
+        "meanMs": 23.52011880000064,
+        "p50Ms": 24.5882500000007,
+        "p95Ms": 31.433011000000988,
+        "p99Ms": 32.07477900000231,
+        "opsPerSecond": 561.3231194228504,
+        "totalWallMs": 35.63010200001008
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 14.527608000003966,
+        "maxMs": 45.875599999999395,
+        "meanMs": 25.049010799999813,
+        "p50Ms": 24.179535999996006,
+        "p95Ms": 33.35437000000093,
+        "p99Ms": 45.875599999999395,
+        "opsPerSecond": 433.7390043639173,
+        "totalWallMs": 46.11067899999034
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 13.31641500000842,
+        "maxMs": 29.936273000013898,
+        "meanMs": 21.782435349999286,
+        "p50Ms": 21.3722390000039,
+        "p95Ms": 28.849642999994103,
+        "p99Ms": 29.936273000013898,
+        "opsPerSecond": 661.2810177167617,
+        "totalWallMs": 30.244328000000678
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 7.140984999990906,
+        "maxMs": 29.89296299999114,
+        "meanMs": 10.89161979999626,
+        "p50Ms": 9.53148200000578,
+        "p95Ms": 18.954420999987633,
+        "p99Ms": 29.89296299999114,
+        "opsPerSecond": 91.7966426038906,
+        "totalWallMs": 217.8728919999994
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 8.289641000010306,
+        "maxMs": 29.483528000011574,
+        "meanMs": 14.567584300001908,
+        "p50Ms": 12.539484000008088,
+        "p95Ms": 22.06854100000055,
+        "p99Ms": 29.483528000011574,
+        "opsPerSecond": 68.63386797789428,
+        "totalWallMs": 291.40132400000584
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 8.03175999999803,
+        "maxMs": 23.195797999986098,
+        "meanMs": 11.558120349999808,
+        "p50Ms": 10.009978000001865,
+        "p95Ms": 15.800810000000638,
+        "p99Ms": 23.195797999986098,
+        "opsPerSecond": 329.118948738762,
+        "totalWallMs": 60.76830300000438
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 6.589835999999195,
+        "maxMs": 12.908001999996486,
+        "meanMs": 8.857088149998162,
+        "p50Ms": 8.54282499999681,
+        "p95Ms": 11.429950999998255,
+        "p99Ms": 12.908001999996486,
+        "opsPerSecond": 416.42465453827435,
+        "totalWallMs": 48.0278959999996
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 9.11534400000528,
+        "maxMs": 28.69658800000616,
+        "meanMs": 16.288463000000775,
+        "p50Ms": 14.082016999993357,
+        "p95Ms": 27.09367299999576,
+        "p99Ms": 28.69658800000616,
+        "opsPerSecond": 437.39469176063733,
+        "totalWallMs": 45.72529199998826
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 12.990406999990228,
+        "maxMs": 27.613294999988284,
+        "meanMs": 18.504536300000474,
+        "p50Ms": 17.129501999996137,
+        "p95Ms": 25.951206999990973,
+        "p99Ms": 27.613294999988284,
+        "opsPerSecond": 343.9953310202144,
+        "totalWallMs": 58.14032399999269
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 13.983382999998867,
+        "maxMs": 35.4391900000046,
+        "meanMs": 23.057068350001646,
+        "p50Ms": 22.617048000000068,
+        "p95Ms": 33.784717000002274,
+        "p99Ms": 35.4391900000046,
+        "opsPerSecond": 547.0188851978473,
+        "totalWallMs": 36.56180900000618
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 12.218774000008125,
+        "maxMs": 30.595107000001008,
+        "meanMs": 20.741238650000742,
+        "p50Ms": 19.752433999994537,
+        "p95Ms": 30.022166999988258,
+        "p99Ms": 30.595107000001008,
+        "opsPerSecond": 609.7594623922934,
+        "totalWallMs": 32.79981899999257
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 17.151866000000155,
+        "maxMs": 33.61340899999777,
+        "meanMs": 25.46340980000023,
+        "p50Ms": 25.148730000000796,
+        "p95Ms": 32.52343099999416,
+        "p99Ms": 33.61340899999777,
+        "opsPerSecond": 587.7932390256104,
+        "totalWallMs": 34.02557000001252
+      }
+    },
+    {
+      "operation": "head",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 38.39576600000146,
+        "maxMs": 58.42692199999874,
+        "meanMs": 49.265995649999965,
+        "p50Ms": 49.48887800000375,
+        "p95Ms": 57.667153000002145,
+        "p99Ms": 58.42692199999874,
+        "opsPerSecond": 340.2962135615155,
+        "totalWallMs": 58.77232599999115
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 8.579363999975612,
+        "maxMs": 45.087413000001106,
+        "meanMs": 21.731301049995817,
+        "p50Ms": 19.955646000016714,
+        "p95Ms": 37.28313699999126,
+        "p99Ms": 45.087413000001106,
+        "opsPerSecond": 46.013207387180245,
+        "totalWallMs": 434.65781099998276
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 10.892044999985956,
+        "maxMs": 33.9546890000056,
+        "meanMs": 18.05010654999787,
+        "p50Ms": 14.403025999985402,
+        "p95Ms": 29.470847999997204,
+        "p99Ms": 33.9546890000056,
+        "opsPerSecond": 55.39129835328162,
+        "totalWallMs": 361.06754300001194
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 7.335508999996819,
+        "maxMs": 52.79753199999686,
+        "meanMs": 20.649704849997942,
+        "p50Ms": 13.633137999975588,
+        "p95Ms": 49.59508700002334,
+        "p99Ms": 52.79753199999686,
+        "opsPerSecond": 180.444829345303,
+        "totalWallMs": 110.83720199999516
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 7.96481499998481,
+        "maxMs": 55.785757999983616,
+        "meanMs": 17.629407449997963,
+        "p50Ms": 14.099411000002874,
+        "p95Ms": 38.622572000022046,
+        "p99Ms": 55.785757999983616,
+        "opsPerSecond": 199.60536223437995,
+        "totalWallMs": 100.19770900000003
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 7.473838000005344,
+        "maxMs": 47.628773000004,
+        "meanMs": 18.153583699997398,
+        "p50Ms": 12.641024999989895,
+        "p95Ms": 45.971014999988256,
+        "p99Ms": 47.628773000004,
+        "opsPerSecond": 367.9446205078788,
+        "totalWallMs": 54.35600600001635
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 7.665257000015117,
+        "maxMs": 124.6907460000075,
+        "meanMs": 21.07642449999985,
+        "p50Ms": 11.028841999999713,
+        "p95Ms": 55.32304399998975,
+        "p99Ms": 124.6907460000075,
+        "opsPerSecond": 159.9060136414183,
+        "totalWallMs": 125.073470000003
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 9.771991999994498,
+        "maxMs": 110.29042299999855,
+        "meanMs": 40.04825425000163,
+        "p50Ms": 36.37543300000834,
+        "p95Ms": 69.6120579999988,
+        "p99Ms": 110.29042299999855,
+        "opsPerSecond": 180.41921939188643,
+        "totalWallMs": 110.85293500000262
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 17.21003399998881,
+        "maxMs": 118.93640400000731,
+        "meanMs": 48.10147065000346,
+        "p50Ms": 28.373498000000836,
+        "p95Ms": 114.25983399999677,
+        "p99Ms": 118.93640400000731,
+        "opsPerSecond": 167.5388557999323,
+        "totalWallMs": 119.37529299999005
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 18.89905100001488,
+        "maxMs": 68.87238699998125,
+        "meanMs": 30.26813795000344,
+        "p50Ms": 25.02471100000548,
+        "p95Ms": 45.70147299999371,
+        "p99Ms": 68.87238699998125,
+        "opsPerSecond": 287.7314599982073,
+        "totalWallMs": 69.50925699999789
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 19.088094000006095,
+        "maxMs": 69.74509899999248,
+        "meanMs": 31.714604450005574,
+        "p50Ms": 22.39892200002214,
+        "p95Ms": 69.37115999998059,
+        "p99Ms": 69.74509899999248,
+        "opsPerSecond": 284.1580656519637,
+        "totalWallMs": 70.38336199999321
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 14.24693599998136,
+        "maxMs": 89.1290169999993,
+        "meanMs": 35.25335459999769,
+        "p50Ms": 31.007351000007475,
+        "p95Ms": 55.74663700000383,
+        "p99Ms": 89.1290169999993,
+        "opsPerSecond": 28.363768105602837,
+        "totalWallMs": 705.12493000002
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 10.18490500000189,
+        "maxMs": 94.57715100000496,
+        "meanMs": 33.010745849998784,
+        "p50Ms": 26.316874999989523,
+        "p95Ms": 91.75449500000104,
+        "p99Ms": 94.57715100000496,
+        "opsPerSecond": 30.29159940082576,
+        "totalWallMs": 660.2490589999943
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 10.71289200001047,
+        "maxMs": 115.69938800000818,
+        "meanMs": 24.54093970000249,
+        "p50Ms": 17.880667999997968,
+        "p95Ms": 38.60387800002354,
+        "p99Ms": 115.69938800000818,
+        "opsPerSecond": 147.56797427287106,
+        "totalWallMs": 135.53076200000942
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 11.325637000001734,
+        "maxMs": 63.78932100001839,
+        "meanMs": 26.654730499997093,
+        "p50Ms": 22.246718999987934,
+        "p95Ms": 57.93195299999206,
+        "p99Ms": 63.78932100001839,
+        "opsPerSecond": 126.08041220829946,
+        "totalWallMs": 158.62892300001113
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 10.947690000000875,
+        "maxMs": 100.83270400000038,
+        "meanMs": 31.290386049996595,
+        "p50Ms": 23.42241699999431,
+        "p95Ms": 72.38843299998553,
+        "p99Ms": 100.83270400000038,
+        "opsPerSecond": 197.97576119401475,
+        "totalWallMs": 101.02246800001012
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 16.605114999983925,
+        "maxMs": 134.19475900000543,
+        "meanMs": 50.05502174999856,
+        "p50Ms": 39.608749000006355,
+        "p95Ms": 126.83756899999571,
+        "p99Ms": 134.19475900000543,
+        "opsPerSecond": 135.0123723987852,
+        "totalWallMs": 148.13457200000994
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 9.615500999992946,
+        "maxMs": 138.17319600001792,
+        "meanMs": 34.899054750001234,
+        "p50Ms": 21.218286000017542,
+        "p95Ms": 86.59408500001882,
+        "p99Ms": 138.17319600001792,
+        "opsPerSecond": 144.55247493351808,
+        "totalWallMs": 138.35805999999866
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 10.316481999994721,
+        "maxMs": 77.33922799999709,
+        "meanMs": 30.046316700002354,
+        "p50Ms": 24.769876000005752,
+        "p95Ms": 56.658265999983996,
+        "p99Ms": 77.33922799999709,
+        "opsPerSecond": 257.9215477190731,
+        "totalWallMs": 77.54295900001307
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 22.747224999999162,
+        "maxMs": 122.04456300000311,
+        "meanMs": 66.47849585000077,
+        "p50Ms": 62.823858999996446,
+        "p95Ms": 94.53373699999065,
+        "p99Ms": 122.04456300000311,
+        "opsPerSecond": 163.11391377421992,
+        "totalWallMs": 122.61369700002251
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 18.185330000007525,
+        "maxMs": 90.22828899999149,
+        "meanMs": 36.20534349999798,
+        "p50Ms": 28.00052400000277,
+        "p95Ms": 70.62575100001413,
+        "p99Ms": 90.22828899999149,
+        "opsPerSecond": 220.03094141103227,
+        "totalWallMs": 90.89630700001726
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 12.978376999992179,
+        "maxMs": 105.69396599999163,
+        "meanMs": 37.57702520000021,
+        "p50Ms": 21.65236000000732,
+        "p95Ms": 102.75769800000126,
+        "p99Ms": 105.69396599999163,
+        "opsPerSecond": 26.610325263633403,
+        "totalWallMs": 751.5879570000106
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 13.77282300000661,
+        "maxMs": 146.37230700001237,
+        "meanMs": 48.28701430000365,
+        "p50Ms": 31.368279000016628,
+        "p95Ms": 142.8377310000069,
+        "p99Ms": 146.37230700001237,
+        "opsPerSecond": 20.70843920492673,
+        "totalWallMs": 965.7898310000019
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 13.198880000010831,
+        "maxMs": 72.22493299999041,
+        "meanMs": 31.04027060000517,
+        "p50Ms": 27.80417800002033,
+        "p95Ms": 70.49335599999176,
+        "p99Ms": 72.22493299999041,
+        "opsPerSecond": 125.82298929956708,
+        "totalWallMs": 158.95346399999107
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 12.601793000008911,
+        "maxMs": 157.22080599999754,
+        "meanMs": 51.06819579999865,
+        "p50Ms": 33.5210430000152,
+        "p95Ms": 116.75905100000091,
+        "p99Ms": 157.22080599999754,
+        "opsPerSecond": 74.96858619445766,
+        "totalWallMs": 266.77840700000525
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 16.57067200000165,
+        "maxMs": 217.99352699998417,
+        "meanMs": 39.180817049997856,
+        "p50Ms": 30.037421999993967,
+        "p95Ms": 54.84366700000828,
+        "p99Ms": 217.99352699998417,
+        "opsPerSecond": 91.59484150309521,
+        "totalWallMs": 218.35290800000075
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 14.422014999989187,
+        "maxMs": 159.28807300000335,
+        "meanMs": 40.96334514999762,
+        "p50Ms": 32.725726999982726,
+        "p95Ms": 82.41334800000186,
+        "p99Ms": 159.28807300000335,
+        "opsPerSecond": 102.26029770784885,
+        "totalWallMs": 195.5793249999988
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 20.472976999997627,
+        "maxMs": 96.30743900002562,
+        "meanMs": 49.36351774999639,
+        "p50Ms": 45.852694000001065,
+        "p95Ms": 78.29481099999975,
+        "p99Ms": 96.30743900002562,
+        "opsPerSecond": 206.98945644353074,
+        "totalWallMs": 96.62327899999218
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 26.53668900000048,
+        "maxMs": 135.82972999999765,
+        "meanMs": 53.64874249999993,
+        "p50Ms": 45.719003999984125,
+        "p95Ms": 91.43287899999996,
+        "p99Ms": 135.82972999999765,
+        "opsPerSecond": 146.7492742789896,
+        "totalWallMs": 136.2868749999907
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-get-single-iad-2f68cb37",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 21.1766409999982,
+        "maxMs": 66.83757699999842,
+        "meanMs": 47.81746494999679,
+        "p50Ms": 46.77683099999558,
+        "p95Ms": 65.54406000001472,
+        "p99Ms": 66.83757699999842,
+        "opsPerSecond": 296.7651148333925,
+        "totalWallMs": 67.39336600000388
+      }
+    },
+    {
+      "operation": "get",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-get-multi-usa-c985c8dd",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 28.127143000019714,
+        "maxMs": 155.28875300002983,
+        "meanMs": 57.27825029999949,
+        "p50Ms": 49.54915299999993,
+        "p95Ms": 85.87442899995949,
+        "p99Ms": 155.28875300002983,
+        "opsPerSecond": 128.52158294431408,
+        "totalWallMs": 155.61588599998504
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 18.67369399999734,
+        "maxMs": 57.02021899999818,
+        "meanMs": 28.585564500000327,
+        "p50Ms": 23.236581000033766,
+        "p95Ms": 48.757244000036735,
+        "p99Ms": 57.02021899999818,
+        "opsPerSecond": 34.98071268444714,
+        "totalWallMs": 571.7436400000006
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 17.48243899998488,
+        "maxMs": 54.80226500000572,
+        "meanMs": 26.343113049998646,
+        "p50Ms": 21.69298799999524,
+        "p95Ms": 44.19423600001028,
+        "p99Ms": 54.80226500000572,
+        "opsPerSecond": 37.95801538695538,
+        "totalWallMs": 526.8979369999724
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 16.499339999980293,
+        "maxMs": 33.15789800003404,
+        "meanMs": 21.073723450000397,
+        "p50Ms": 19.4429629999795,
+        "p95Ms": 28.463795000046957,
+        "p99Ms": 33.15789800003404,
+        "opsPerSecond": 177.98482396377617,
+        "totalWallMs": 112.36913100001402
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 17.831281000049785,
+        "maxMs": 45.45783099997789,
+        "meanMs": 27.317438900005072,
+        "p50Ms": 24.605883999960497,
+        "p95Ms": 39.903328000043985,
+        "p99Ms": 45.45783099997789,
+        "opsPerSecond": 138.8025459940295,
+        "totalWallMs": 144.0895759999985
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 19.451430000015534,
+        "maxMs": 136.83831299998565,
+        "meanMs": 42.12029784999322,
+        "p50Ms": 30.49587399995653,
+        "p95Ms": 117.08000999997603,
+        "p99Ms": 136.83831299998565,
+        "opsPerSecond": 145.8799515512357,
+        "totalWallMs": 137.09903099999065
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 20.734449000039604,
+        "maxMs": 96.56068799999775,
+        "meanMs": 36.63477084999613,
+        "p50Ms": 30.21438899997156,
+        "p95Ms": 89.20411499997135,
+        "p99Ms": 96.56068799999775,
+        "opsPerSecond": 188.5157967518156,
+        "totalWallMs": 106.09190500003751
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 24.436830000020564,
+        "maxMs": 153.914448000025,
+        "meanMs": 75.1724723499996,
+        "p50Ms": 53.3239889999968,
+        "p95Ms": 134.84684700000798,
+        "p99Ms": 153.914448000025,
+        "opsPerSecond": 129.59301624271077,
+        "totalWallMs": 154.3293040000135
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 25.929981000022963,
+        "maxMs": 106.24050700000953,
+        "meanMs": 62.20474370000011,
+        "p50Ms": 54.17290599999251,
+        "p95Ms": 100.52780800004257,
+        "p99Ms": 106.24050700000953,
+        "opsPerSecond": 187.45972252120686,
+        "totalWallMs": 106.68958499998553
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 31.578791000007186,
+        "maxMs": 110.992602000013,
+        "meanMs": 65.89843324999966,
+        "p50Ms": 63.767792999977246,
+        "p95Ms": 96.94016300002113,
+        "p99Ms": 110.992602000013,
+        "opsPerSecond": 179.4906240964183,
+        "totalWallMs": 111.42643299995689
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 25.930815000028815,
+        "maxMs": 104.89891400001943,
+        "meanMs": 60.97072869999393,
+        "p50Ms": 58.929309999977704,
+        "p95Ms": 96.71273999998812,
+        "p99Ms": 104.89891400001943,
+        "opsPerSecond": 189.6220478939671,
+        "totalWallMs": 105.4729670000379
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 16.296984000015073,
+        "maxMs": 50.382222999993246,
+        "meanMs": 23.58510024998977,
+        "p50Ms": 19.52835400000913,
+        "p95Ms": 46.49934599996777,
+        "p99Ms": 50.382222999993246,
+        "opsPerSecond": 42.395349274273556,
+        "totalWallMs": 471.7498580000247
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 16.399106000026222,
+        "maxMs": 30.626453000004403,
+        "meanMs": 20.639175950005303,
+        "p50Ms": 19.603626000054646,
+        "p95Ms": 25.478580999944825,
+        "p99Ms": 30.626453000004403,
+        "opsPerSecond": 48.44776275014676,
+        "totalWallMs": 412.8157599999686
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 17.132828999951016,
+        "maxMs": 69.54712399997516,
+        "meanMs": 31.38825459998916,
+        "p50Ms": 26.995514999958687,
+        "p95Ms": 48.580065999994986,
+        "p99Ms": 69.54712399997516,
+        "opsPerSecond": 116.85299938832516,
+        "totalWallMs": 171.15521300002
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 18.053040000027977,
+        "maxMs": 47.468430000008084,
+        "meanMs": 27.683610999997473,
+        "p50Ms": 24.451821999973617,
+        "p95Ms": 43.4794830000028,
+        "p99Ms": 47.468430000008084,
+        "opsPerSecond": 133.52009501124016,
+        "totalWallMs": 149.79018700006418
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 16.374140999978408,
+        "maxMs": 58.37240699992981,
+        "meanMs": 35.26051079999888,
+        "p50Ms": 33.0418410000857,
+        "p95Ms": 53.365315999952145,
+        "p99Ms": 58.37240699992981,
+        "opsPerSecond": 197.8050522812331,
+        "totalWallMs": 101.10965200001374
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 20.54673200007528,
+        "maxMs": 69.36083999997936,
+        "meanMs": 34.37501055000466,
+        "p50Ms": 31.75518600002397,
+        "p95Ms": 48.49029400001746,
+        "p99Ms": 69.36083999997936,
+        "opsPerSecond": 201.8256746882758,
+        "totalWallMs": 99.09541999991052
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 22.309338000020944,
+        "maxMs": 99.01405999995768,
+        "meanMs": 56.995504199992865,
+        "p50Ms": 52.822163000004366,
+        "p95Ms": 95.75530600000639,
+        "p99Ms": 99.01405999995768,
+        "opsPerSecond": 201.21754523219067,
+        "totalWallMs": 99.39491100003943
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 21.5082799999509,
+        "maxMs": 89.45016200002283,
+        "meanMs": 55.71620574999834,
+        "p50Ms": 57.228692000033334,
+        "p95Ms": 85.8754379999591,
+        "p99Ms": 89.45016200002283,
+        "opsPerSecond": 207.57429683453975,
+        "totalWallMs": 96.35104300000239
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 27.469125000061467,
+        "maxMs": 97.97161399992183,
+        "meanMs": 63.95520914999652,
+        "p50Ms": 62.35224300005939,
+        "p95Ms": 94.68822599994019,
+        "p99Ms": 97.97161399992183,
+        "opsPerSecond": 203.37951882197405,
+        "totalWallMs": 98.33831900008954
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 22.239417999982834,
+        "maxMs": 92.76355999999214,
+        "meanMs": 59.45505815000506,
+        "p50Ms": 58.48797899996862,
+        "p95Ms": 88.94717399997171,
+        "p99Ms": 92.76355999999214,
+        "opsPerSecond": 214.63759729512347,
+        "totalWallMs": 93.18032000004314
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 17.383920999942347,
+        "maxMs": 40.67361399997026,
+        "meanMs": 22.42051305001951,
+        "p50Ms": 20.512550999992527,
+        "p95Ms": 38.06765300000552,
+        "p99Ms": 40.67361399997026,
+        "opsPerSecond": 44.59854768932702,
+        "totalWallMs": 448.4450959999813
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 15.659868000075221,
+        "maxMs": 47.87932599999476,
+        "meanMs": 21.394190049986356,
+        "p50Ms": 18.35673899995163,
+        "p95Ms": 32.56493499991484,
+        "p99Ms": 47.87932599999476,
+        "opsPerSecond": 46.73766418535918,
+        "totalWallMs": 427.9204009999521
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 15.10985000000801,
+        "maxMs": 47.69368000002578,
+        "meanMs": 26.002673150011105,
+        "p50Ms": 25.001914000022225,
+        "p95Ms": 37.703362000058405,
+        "p99Ms": 47.69368000002578,
+        "opsPerSecond": 139.31121179488542,
+        "totalWallMs": 143.5634629999986
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 16.637668000068516,
+        "maxMs": 41.465666999924,
+        "meanMs": 24.543509100005032,
+        "p50Ms": 22.772546999971382,
+        "p95Ms": 34.08267200004775,
+        "p99Ms": 41.465666999924,
+        "opsPerSecond": 154.14301075636124,
+        "totalWallMs": 129.74963899992872
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 17.93907000008039,
+        "maxMs": 46.56443000002764,
+        "meanMs": 31.48951440001256,
+        "p50Ms": 29.778667000005953,
+        "p95Ms": 44.21663200005423,
+        "p99Ms": 46.56443000002764,
+        "opsPerSecond": 218.17914925560103,
+        "totalWallMs": 91.66778800007887
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 20.003170000039972,
+        "maxMs": 53.4420800000662,
+        "meanMs": 32.71573115001083,
+        "p50Ms": 30.902145999949425,
+        "p95Ms": 49.31712800008245,
+        "p99Ms": 53.4420800000662,
+        "opsPerSecond": 210.26294927236768,
+        "totalWallMs": 95.11899300001096
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 22.0751750000054,
+        "maxMs": 84.89812400005758,
+        "meanMs": 52.338031899998896,
+        "p50Ms": 48.76982499996666,
+        "p95Ms": 81.50827600003686,
+        "p99Ms": 84.89812400005758,
+        "opsPerSecond": 214.97624254561222,
+        "totalWallMs": 93.03353599994443
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 38.90739599999506,
+        "maxMs": 100.20316100004129,
+        "meanMs": 69.97529269999941,
+        "p50Ms": 65.44020399998408,
+        "p95Ms": 96.77959100005683,
+        "p99Ms": 100.20316100004129,
+        "opsPerSecond": 174.52954709752478,
+        "totalWallMs": 114.59377699997276
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-list-prefix-single-iad-21eb68e",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 24.653194000013173,
+        "maxMs": 94.63791599997785,
+        "meanMs": 59.621970100002365,
+        "p50Ms": 57.566102999961004,
+        "p95Ms": 91.49847700004466,
+        "p99Ms": 94.63791599997785,
+        "opsPerSecond": 210.28172494109677,
+        "totalWallMs": 95.11049999995157
+      }
+    },
+    {
+      "operation": "list-prefix",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-list-prefix-multi-usa-e185a5bf",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 25.00524199998472,
+        "maxMs": 95.88959699997213,
+        "meanMs": 61.65560979999136,
+        "p50Ms": 60.54266000003554,
+        "p95Ms": 92.81460899999365,
+        "p99Ms": 95.88959699997213,
+        "opsPerSecond": 207.50611668356254,
+        "totalWallMs": 96.3827010000823
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 56.21495699998923,
+        "maxMs": 187.52158699999563,
+        "meanMs": 102.66347534997621,
+        "p50Ms": 93.47337000002153,
+        "p95Ms": 154.01051900000311,
+        "p99Ms": 187.52158699999563,
+        "opsPerSecond": 9.740357584998145,
+        "totalWallMs": 2053.3127069999464
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 120.02384299994446,
+        "maxMs": 302.2637349999277,
+        "meanMs": 188.82913989998633,
+        "p50Ms": 179.64264500001445,
+        "p95Ms": 242.39234100002795,
+        "p99Ms": 302.2637349999277,
+        "opsPerSecond": 5.295733348357489,
+        "totalWallMs": 3776.6251969999867
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 39.87352300004568,
+        "maxMs": 161.35342000005767,
+        "meanMs": 89.78579535001191,
+        "p50Ms": 82.57098499999847,
+        "p95Ms": 155.83434900001157,
+        "p99Ms": 161.35342000005767,
+        "opsPerSecond": 42.86982270957443,
+        "totalWallMs": 466.52863800001796
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 116.16164200007915,
+        "maxMs": 261.5428369999863,
+        "meanMs": 171.2348202999914,
+        "p50Ms": 170.9405839999672,
+        "p95Ms": 210.39445300004445,
+        "p99Ms": 261.5428369999863,
+        "opsPerSecond": 21.20286640829969,
+        "totalWallMs": 943.2686890000477
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 52.76529700006358,
+        "maxMs": 140.59301199996844,
+        "meanMs": 91.87524044999736,
+        "p50Ms": 85.91459800000302,
+        "p95Ms": 137.727584999986,
+        "p99Ms": 140.59301199996844,
+        "opsPerSecond": 68.06015083987387,
+        "totalWallMs": 293.8577090000035
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 142.40142399992328,
+        "maxMs": 288.4582020000089,
+        "meanMs": 212.87076774999733,
+        "p50Ms": 215.92789900000207,
+        "p95Ms": 276.8867270000046,
+        "p99Ms": 288.4582020000089,
+        "opsPerSecond": 31.536963404130187,
+        "totalWallMs": 634.1764659999171
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 60.07945399999153,
+        "maxMs": 143.47808699996676,
+        "meanMs": 98.60847220001742,
+        "p50Ms": 84.26882100000512,
+        "p95Ms": 142.71843700006139,
+        "p99Ms": 143.47808699996676,
+        "opsPerSecond": 130.02987410348308,
+        "totalWallMs": 153.81080800003838
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 127.59602300007828,
+        "maxMs": 238.26900199998636,
+        "meanMs": 183.08985170000815,
+        "p50Ms": 167.07032900000922,
+        "p95Ms": 237.56306199997198,
+        "p99Ms": 238.26900199998636,
+        "opsPerSecond": 65.06441108306507,
+        "totalWallMs": 307.387705000001
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 60.04274499998428,
+        "maxMs": 108.73437600000761,
+        "meanMs": 71.41780894998229,
+        "p50Ms": 66.77789699996356,
+        "p95Ms": 106.39838699996471,
+        "p99Ms": 108.73437600000761,
+        "opsPerSecond": 183.70892239791294,
+        "totalWallMs": 108.86787499999627
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 174.87375999998767,
+        "maxMs": 251.8295480000088,
+        "meanMs": 201.9542397999845,
+        "p50Ms": 195.89231799996924,
+        "p95Ms": 221.32356799999252,
+        "p99Ms": 251.8295480000088,
+        "opsPerSecond": 79.38780569963531,
+        "totalWallMs": 251.92785999993794
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 49.83875600004103,
+        "maxMs": 194.99008199991658,
+        "meanMs": 116.15178815000108,
+        "p50Ms": 119.97244799998589,
+        "p95Ms": 184.60416300001089,
+        "p99Ms": 194.99008199991658,
+        "opsPerSecond": 8.609260805789171,
+        "totalWallMs": 2323.079815000063
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 153.5253729999531,
+        "maxMs": 514.0757020000601,
+        "meanMs": 237.13001004998804,
+        "p50Ms": 204.1157339999918,
+        "p95Ms": 415.9894449999556,
+        "p99Ms": 514.0757020000601,
+        "opsPerSecond": 4.217060100866205,
+        "totalWallMs": 4742.64049400005
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 64.05985700001474,
+        "maxMs": 565.9252189999679,
+        "meanMs": 172.0710736999754,
+        "p50Ms": 148.5835429999279,
+        "p95Ms": 307.60042499995325,
+        "p99Ms": 565.9252189999679,
+        "opsPerSecond": 17.3043214225527,
+        "totalWallMs": 1155.780657999916
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 119.60106400004588,
+        "maxMs": 423.02273600001354,
+        "meanMs": 214.07792099999497,
+        "p50Ms": 198.91879799996968,
+        "p95Ms": 366.311670999974,
+        "p99Ms": 423.02273600001354,
+        "opsPerSecond": 17.389000910040448,
+        "totalWallMs": 1150.1523349999916
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 51.223846000037156,
+        "maxMs": 321.02192899992224,
+        "meanMs": 166.27703729999484,
+        "p50Ms": 152.85485100001097,
+        "p95Ms": 266.51694000000134,
+        "p99Ms": 321.02192899992224,
+        "opsPerSecond": 41.53054425134072,
+        "totalWallMs": 481.5732700000517
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 127.96144599991385,
+        "maxMs": 1089.5689009999624,
+        "meanMs": 292.5005380999879,
+        "p50Ms": 231.4463359999936,
+        "p95Ms": 482.6807930000359,
+        "p99Ms": 1089.5689009999624,
+        "opsPerSecond": 18.354624788330163,
+        "totalWallMs": 1089.6436310000718
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 67.05503699998371,
+        "maxMs": 344.93641500000376,
+        "meanMs": 162.19306214999523,
+        "p50Ms": 143.06664900004398,
+        "p95Ms": 281.52672600001097,
+        "p99Ms": 344.93641500000376,
+        "opsPerSecond": 57.97474302492776,
+        "totalWallMs": 344.97781199996825
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 144.38749800005462,
+        "maxMs": 341.99416400003247,
+        "meanMs": 222.02085370002314,
+        "p50Ms": 229.53837899991777,
+        "p95Ms": 329.38008900010027,
+        "p99Ms": 341.99416400003247,
+        "opsPerSecond": 40.59498840415937,
+        "totalWallMs": 492.6716520000482
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 71.22122700000182,
+        "maxMs": 540.4348979999777,
+        "meanMs": 186.61212755001034,
+        "p50Ms": 182.67603899992537,
+        "p95Ms": 310.2276370000327,
+        "p99Ms": 540.4348979999777,
+        "opsPerSecond": 37.000189576017135,
+        "totalWallMs": 540.5377710000612
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 170.4271159999771,
+        "maxMs": 423.34722399991006,
+        "meanMs": 216.00890604999148,
+        "p50Ms": 190.94208299997263,
+        "p95Ms": 271.75016599998344,
+        "p99Ms": 423.34722399991006,
+        "opsPerSecond": 47.2350984707136,
+        "totalWallMs": 423.4139579999028
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 51.892956999945454,
+        "maxMs": 547.5260980000021,
+        "meanMs": 178.56829784999718,
+        "p50Ms": 148.76654699991923,
+        "p95Ms": 407.0994049999863,
+        "p99Ms": 547.5260980000021,
+        "opsPerSecond": 5.600029418074566,
+        "totalWallMs": 3571.409809999983
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 133.4605590000283,
+        "maxMs": 362.9672390000196,
+        "meanMs": 217.65934940002043,
+        "p50Ms": 207.93442600010894,
+        "p95Ms": 332.7697170000756,
+        "p99Ms": 362.9672390000196,
+        "opsPerSecond": 4.594287473430464,
+        "totalWallMs": 4353.232164000045
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 62.7590649999911,
+        "maxMs": 347.6292119999416,
+        "meanMs": 137.1544462499907,
+        "p50Ms": 111.94601199997123,
+        "p95Ms": 224.87538199999835,
+        "p99Ms": 347.6292119999416,
+        "opsPerSecond": 24.086447473939263,
+        "totalWallMs": 830.3424580000574
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 140.68916499998886,
+        "maxMs": 466.2167109999573,
+        "meanMs": 242.87241734999697,
+        "p50Ms": 203.57516599993687,
+        "p95Ms": 463.62823199993,
+        "p99Ms": 466.2167109999573,
+        "opsPerSecond": 15.939049038223468,
+        "totalWallMs": 1254.7800030000508
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 59.54364099993836,
+        "maxMs": 343.7767280000262,
+        "meanMs": 171.4544787999941,
+        "p50Ms": 140.22117999999318,
+        "p95Ms": 324.1914790000301,
+        "p99Ms": 343.7767280000262,
+        "opsPerSecond": 28.891546577315765,
+        "totalWallMs": 692.2440080000088
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 127.02105900004972,
+        "maxMs": 395.3656770000234,
+        "meanMs": 214.74899150001002,
+        "p50Ms": 181.22641000000294,
+        "p95Ms": 346.2424990000436,
+        "p99Ms": 395.3656770000234,
+        "opsPerSecond": 28.771205050649584,
+        "totalWallMs": 695.1394619999919
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 47.279651000048034,
+        "maxMs": 234.20154000003822,
+        "meanMs": 119.5966056500096,
+        "p50Ms": 112.19488700001966,
+        "p95Ms": 233.2462949999608,
+        "p99Ms": 234.20154000003822,
+        "opsPerSecond": 65.9240767702225,
+        "totalWallMs": 303.37929599999916
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 147.5199680000078,
+        "maxMs": 604.2101259999909,
+        "meanMs": 262.80506610000737,
+        "p50Ms": 200.81801099993754,
+        "p95Ms": 507.1487659999402,
+        "p99Ms": 604.2101259999909,
+        "opsPerSecond": 33.09585929033442,
+        "totalWallMs": 604.3052039999748
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-new-single-iad-6769c0f7",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 69.28420500003267,
+        "maxMs": 418.63011699996423,
+        "meanMs": 149.4100785999908,
+        "p50Ms": 134.4500189999817,
+        "p95Ms": 315.5666419999907,
+        "p99Ms": 418.63011699996423,
+        "opsPerSecond": 47.758444626093286,
+        "totalWallMs": 418.77410699997563
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-new-multi-usa-473c297c",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 185.5585410000058,
+        "maxMs": 449.1020729999291,
+        "meanMs": 244.27966724999715,
+        "p50Ms": 192.48828699998558,
+        "p95Ms": 440.6898730000248,
+        "p99Ms": 449.1020729999291,
+        "opsPerSecond": 44.51979687183939,
+        "totalWallMs": 449.2383479999844
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 53.05637300002854,
+        "maxMs": 136.1189599999925,
+        "meanMs": 78.49813644999522,
+        "p50Ms": 72.52699799998663,
+        "p95Ms": 115.79996800003573,
+        "p99Ms": 136.1189599999925,
+        "opsPerSecond": 12.738812008735447,
+        "totalWallMs": 1570.0051140000578
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 122.43114699993748,
+        "maxMs": 205.07708600000478,
+        "meanMs": 162.85330620000605,
+        "p50Ms": 157.99834900000133,
+        "p95Ms": 201.61349000001792,
+        "p99Ms": 205.07708600000478,
+        "opsPerSecond": 6.140327212695067,
+        "totalWallMs": 3257.1554100000067
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 47.92050000000745,
+        "maxMs": 115.96023799991235,
+        "meanMs": 83.34300789998379,
+        "p50Ms": 90.33368200005498,
+        "p95Ms": 111.47959100001026,
+        "p99Ms": 115.96023799991235,
+        "opsPerSecond": 43.068405259515316,
+        "totalWallMs": 464.37753800000064
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 120.98129599995445,
+        "maxMs": 172.23853600001894,
+        "meanMs": 146.6050743999891,
+        "p50Ms": 149.60310299997218,
+        "p95Ms": 167.7169409999624,
+        "p99Ms": 172.23853600001894,
+        "opsPerSecond": 26.997273732956604,
+        "totalWallMs": 740.8155430000043
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 44.02066899999045,
+        "maxMs": 343.5447789999889,
+        "meanMs": 90.58659579999512,
+        "p50Ms": 72.16987099999096,
+        "p95Ms": 145.75337399996351,
+        "p99Ms": 343.5447789999889,
+        "opsPerSecond": 47.555362609711345,
+        "totalWallMs": 420.562453999999
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 132.18577599991113,
+        "maxMs": 259.26179000001866,
+        "meanMs": 172.0910093500046,
+        "p50Ms": 162.7822959999321,
+        "p95Ms": 228.41153700009454,
+        "p99Ms": 259.26179000001866,
+        "opsPerSecond": 41.40280066637528,
+        "totalWallMs": 483.05910899990704
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 42.76669399999082,
+        "maxMs": 137.90927900001407,
+        "meanMs": 97.70658500000135,
+        "p50Ms": 99.87346000003163,
+        "p95Ms": 121.19406600005459,
+        "p99Ms": 137.90927900001407,
+        "opsPerSecond": 99.3915231077147,
+        "totalWallMs": 201.22440399997868
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 136.12982199992985,
+        "maxMs": 275.3416669999715,
+        "meanMs": 190.15417165000108,
+        "p50Ms": 184.6739579999121,
+        "p95Ms": 228.64998400001787,
+        "p99Ms": 275.3416669999715,
+        "opsPerSecond": 60.77723545371902,
+        "totalWallMs": 329.0705780000426
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 45.21697700000368,
+        "maxMs": 137.4562820000574,
+        "meanMs": 65.53267539999797,
+        "p50Ms": 46.97796799999196,
+        "p95Ms": 122.63574199995492,
+        "p99Ms": 137.4562820000574,
+        "opsPerSecond": 144.6458102161607,
+        "totalWallMs": 138.2687820000574
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 184.00537999998778,
+        "maxMs": 210.13867300003767,
+        "meanMs": 189.3060918000061,
+        "p50Ms": 186.50245700008236,
+        "p95Ms": 200.30946399993263,
+        "p99Ms": 210.13867300003767,
+        "opsPerSecond": 94.93958844455332,
+        "totalWallMs": 210.66027700004634
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 54.007600999902934,
+        "maxMs": 107.66439799999353,
+        "meanMs": 72.8583843499946,
+        "p50Ms": 67.4398570000194,
+        "p95Ms": 101.26610499992967,
+        "p99Ms": 107.66439799999353,
+        "opsPerSecond": 13.724994996913628,
+        "totalWallMs": 1457.195430999971
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 121.8934639999643,
+        "maxMs": 225.0988860001089,
+        "meanMs": 169.58835510000935,
+        "p50Ms": 170.5693269999465,
+        "p95Ms": 191.71970400004648,
+        "p99Ms": 225.0988860001089,
+        "opsPerSecond": 5.896569227930783,
+        "totalWallMs": 3391.8027970000403
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 43.62111099995673,
+        "maxMs": 106.15906400000677,
+        "meanMs": 79.68331544999383,
+        "p50Ms": 77.75771999999415,
+        "p95Ms": 104.72394100006204,
+        "p99Ms": 106.15906400000677,
+        "opsPerSecond": 46.7964153281359,
+        "totalWallMs": 427.3831629999913
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 141.08238299994264,
+        "maxMs": 192.9871849999763,
+        "meanMs": 169.80907200000365,
+        "p50Ms": 171.1691989999963,
+        "p95Ms": 191.64041600003839,
+        "p99Ms": 192.9871849999763,
+        "opsPerSecond": 22.217920536566037,
+        "totalWallMs": 900.1742520000553
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 68.13662300002761,
+        "maxMs": 135.6399580000434,
+        "meanMs": 97.22114935000427,
+        "p50Ms": 91.47975800000131,
+        "p95Ms": 130.26555699994788,
+        "p99Ms": 135.6399580000434,
+        "opsPerSecond": 62.489923890359215,
+        "totalWallMs": 320.0515979998745
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 165.45012799999677,
+        "maxMs": 227.12094800011255,
+        "meanMs": 194.78228109998162,
+        "p50Ms": 192.85409800009802,
+        "p95Ms": 213.60007699998096,
+        "p99Ms": 227.12094800011255,
+        "opsPerSecond": 35.049435107732826,
+        "totalWallMs": 570.6226059999317
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 62.49287900002673,
+        "maxMs": 121.05003000004217,
+        "meanMs": 90.8081164000323,
+        "p50Ms": 87.0215620000381,
+        "p95Ms": 121.03163300012238,
+        "p99Ms": 121.05003000004217,
+        "opsPerSecond": 97.19247342844082,
+        "totalWallMs": 205.77725100005046
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 128.09524299995974,
+        "maxMs": 194.51127500017174,
+        "meanMs": 148.83502449997468,
+        "p50Ms": 148.38410599995404,
+        "p95Ms": 183.7824959999416,
+        "p99Ms": 194.51127500017174,
+        "opsPerSecond": 72.74350696185863,
+        "totalWallMs": 274.9386279999744
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 74.42964800004847,
+        "maxMs": 121.41523299994878,
+        "meanMs": 110.89620090002427,
+        "p50Ms": 116.00171899981797,
+        "p95Ms": 121.22704000002705,
+        "p99Ms": 121.41523299994878,
+        "opsPerSecond": 164.1662855409842,
+        "totalWallMs": 121.82769399997778
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 162.33729799999855,
+        "maxMs": 217.55636700009927,
+        "meanMs": 174.40422430002363,
+        "p50Ms": 166.49488200014457,
+        "p95Ms": 196.61560100014322,
+        "p99Ms": 217.55636700009927,
+        "opsPerSecond": 91.68056830581715,
+        "totalWallMs": 218.14873500005342
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 43.81426399992779,
+        "maxMs": 142.42736999993213,
+        "meanMs": 76.22934464998544,
+        "p50Ms": 71.57363800005987,
+        "p95Ms": 120.06526799988933,
+        "p99Ms": 142.42736999993213,
+        "opsPerSecond": 13.11804101493043,
+        "totalWallMs": 1524.6178890001029
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 130.17834900016896,
+        "maxMs": 232.40878900000826,
+        "meanMs": 161.60433120002273,
+        "p50Ms": 157.47554900008254,
+        "p95Ms": 199.7682470001746,
+        "p99Ms": 232.40878900000826,
+        "opsPerSecond": 6.187886620625586,
+        "totalWallMs": 3232.121276000049
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 44.78163399989717,
+        "maxMs": 99.31314600002952,
+        "meanMs": 63.02053674994968,
+        "p50Ms": 59.90290700015612,
+        "p95Ms": 90.48069099988788,
+        "p99Ms": 99.31314600002952,
+        "opsPerSecond": 55.6631976657034,
+        "totalWallMs": 359.3038279998582
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 117.4557400001213,
+        "maxMs": 188.4120339998044,
+        "meanMs": 146.42704210000812,
+        "p50Ms": 142.13225000002421,
+        "p95Ms": 186.8419190000277,
+        "p99Ms": 188.4120339998044,
+        "opsPerSecond": 26.94423369600502,
+        "totalWallMs": 742.2738469999749
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 65.92027800017968,
+        "maxMs": 128.72939800005406,
+        "meanMs": 91.92618305000943,
+        "p50Ms": 90.47492199996486,
+        "p95Ms": 126.94616500008851,
+        "p99Ms": 128.72939800005406,
+        "opsPerSecond": 72.08135693010286,
+        "totalWallMs": 277.46425499999896
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 133.46189899998717,
+        "maxMs": 213.11458300007507,
+        "meanMs": 161.14954765000147,
+        "p50Ms": 162.13824899983592,
+        "p95Ms": 185.7213950001169,
+        "p99Ms": 213.11458300007507,
+        "opsPerSecond": 40.805554780188885,
+        "totalWallMs": 490.1293490000535
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 78.60490799997933,
+        "maxMs": 119.32231099996716,
+        "meanMs": 99.7210640000063,
+        "p50Ms": 101.42363300011493,
+        "p95Ms": 110.91239399998449,
+        "p99Ms": 119.32231099996716,
+        "opsPerSecond": 101.16434137642612,
+        "totalWallMs": 197.69811900006607
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 130.05921700014733,
+        "maxMs": 163.34603699995205,
+        "meanMs": 152.22913834997453,
+        "p50Ms": 156.82065599993803,
+        "p95Ms": 160.4636369999498,
+        "p99Ms": 163.34603699995205,
+        "opsPerSecond": 69.87196577151035,
+        "totalWallMs": 286.2378319997806
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 75.20412900019437,
+        "maxMs": 90.41839599981904,
+        "meanMs": 78.8347634000238,
+        "p50Ms": 77.27064200001769,
+        "p95Ms": 87.10656200000085,
+        "p99Ms": 90.41839599981904,
+        "opsPerSecond": 221.1705709020129,
+        "totalWallMs": 90.42794400011189
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 139.266632999992,
+        "maxMs": 201.4254390001297,
+        "meanMs": 161.61275629999582,
+        "p50Ms": 150.1491419998929,
+        "p95Ms": 200.83147799992003,
+        "p99Ms": 201.4254390001297,
+        "opsPerSecond": 99.07046050657232,
+        "totalWallMs": 201.87652199994773
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 40.915384999942034,
+        "maxMs": 295.2577390000224,
+        "meanMs": 113.75257850002963,
+        "p50Ms": 88.55754599999636,
+        "p95Ms": 283.07828400004655,
+        "p99Ms": 295.2577390000224,
+        "opsPerSecond": 8.79077345278655,
+        "totalWallMs": 2275.1126630001236
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 107.71603900007904,
+        "maxMs": 291.57098499988206,
+        "meanMs": 178.57059484999627,
+        "p50Ms": 178.59860699996352,
+        "p95Ms": 278.69823500001803,
+        "p99Ms": 291.57098499988206,
+        "opsPerSecond": 5.599977001342203,
+        "totalWallMs": 3571.4432390001602
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 37.74927400005981,
+        "maxMs": 953.385187999811,
+        "meanMs": 259.1914120000089,
+        "p50Ms": 114.08885499997996,
+        "p95Ms": 910.3594969999976,
+        "p99Ms": 953.385187999811,
+        "opsPerSecond": 12.664188079899379,
+        "totalWallMs": 1579.2563940000255
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 114.13661500019953,
+        "maxMs": 756.3580020000227,
+        "meanMs": 295.71512300003087,
+        "p50Ms": 217.24491899996065,
+        "p95Ms": 721.6406789999455,
+        "p99Ms": 756.3580020000227,
+        "opsPerSecond": 11.756258878955055,
+        "totalWallMs": 1701.2214689999819
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 54.78641099995002,
+        "maxMs": 1576.6477080001496,
+        "meanMs": 541.4122298500035,
+        "p50Ms": 277.3686189998407,
+        "p95Ms": 1389.2985499999486,
+        "p99Ms": 1576.6477080001496,
+        "opsPerSecond": 11.979853064202333,
+        "totalWallMs": 1669.469558000099
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 147.00430199992843,
+        "maxMs": 1761.7957629999146,
+        "meanMs": 555.4659451000043,
+        "p50Ms": 489.9550379998982,
+        "p95Ms": 886.0647630000021,
+        "p99Ms": 1761.7957629999146,
+        "opsPerSecond": 11.351360608845606,
+        "totalWallMs": 1761.9033250000793
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 38.99672799999826,
+        "maxMs": 1298.1238300001714,
+        "meanMs": 560.8072659000521,
+        "p50Ms": 438.22580399992876,
+        "p95Ms": 1083.2070349999703,
+        "p99Ms": 1298.1238300001714,
+        "opsPerSecond": 15.405968768373144,
+        "totalWallMs": 1298.1981399999931
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 147.49150300002657,
+        "maxMs": 1796.3831370000262,
+        "meanMs": 819.5401645500096,
+        "p50Ms": 776.1191760001238,
+        "p95Ms": 1712.7762370000128,
+        "p99Ms": 1796.3831370000262,
+        "opsPerSecond": 11.13300390351725,
+        "totalWallMs": 1796.4603420000058
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 51.37515199999325,
+        "maxMs": 1657.411194999935,
+        "meanMs": 702.3129769999999,
+        "p50Ms": 674.3405659999698,
+        "p95Ms": 1293.6688610001002,
+        "p99Ms": 1657.411194999935,
+        "opsPerSecond": 12.066440412783763,
+        "totalWallMs": 1657.4896420000587
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 155.2596679998096,
+        "maxMs": 1734.815518999938,
+        "meanMs": 851.533480649977,
+        "p50Ms": 754.3781950001139,
+        "p95Ms": 1576.197100999998,
+        "p99Ms": 1734.815518999938,
+        "opsPerSecond": 11.527995050062614,
+        "totalWallMs": 1734.9070600001141
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 62.7049859999679,
+        "maxMs": 364.9892959999852,
+        "meanMs": 158.87013644997495,
+        "p50Ms": 143.1523889999371,
+        "p95Ms": 353.9405460001435,
+        "p99Ms": 364.9892959999852,
+        "opsPerSecond": 6.294390914578585,
+        "totalWallMs": 3177.4321409999393
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 160.28042600001208,
+        "maxMs": 329.53275999985635,
+        "meanMs": 231.17020189999602,
+        "p50Ms": 229.73815899994224,
+        "p95Ms": 315.27801400003955,
+        "p99Ms": 329.53275999985635,
+        "opsPerSecond": 4.3257928762905,
+        "totalWallMs": 4623.429870999884
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 29.132963999873027,
+        "maxMs": 843.6536769999657,
+        "meanMs": 306.9702023499878,
+        "p50Ms": 238.56807100004517,
+        "p95Ms": 813.3590509998612,
+        "p99Ms": 843.6536769999657,
+        "opsPerSecond": 10.996149985631595,
+        "totalWallMs": 1818.8184070000425
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 168.2664980001282,
+        "maxMs": 956.3543189999182,
+        "meanMs": 364.26875455003466,
+        "p50Ms": 310.58385800011456,
+        "p95Ms": 864.9077979999129,
+        "p99Ms": 956.3543189999182,
+        "opsPerSecond": 10.248501629604304,
+        "totalWallMs": 1951.5047880001366
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 106.25460799993016,
+        "maxMs": 1692.3889380001929,
+        "meanMs": 516.3986947500031,
+        "p50Ms": 392.56740499986336,
+        "p95Ms": 1461.2175960000604,
+        "p99Ms": 1692.3889380001929,
+        "opsPerSecond": 11.816985644884047,
+        "totalWallMs": 1692.4789960000198
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 130.98369799996726,
+        "maxMs": 1179.3154879999347,
+        "meanMs": 563.3544113999582,
+        "p50Ms": 479.74821799993515,
+        "p95Ms": 1018.8180050000083,
+        "p99Ms": 1179.3154879999347,
+        "opsPerSecond": 11.54288146093785,
+        "totalWallMs": 1732.669617000036
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 78.83419700013474,
+        "maxMs": 1884.5715389999095,
+        "meanMs": 827.000044949993,
+        "p50Ms": 771.3480289999861,
+        "p95Ms": 1639.4731359998696,
+        "p99Ms": 1884.5715389999095,
+        "opsPerSecond": 10.612087579607984,
+        "totalWallMs": 1884.6433230000548
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 163.3302800001111,
+        "maxMs": 1451.5714030000381,
+        "meanMs": 692.2122441000072,
+        "p50Ms": 647.8044439998921,
+        "p95Ms": 1388.798528000014,
+        "p99Ms": 1451.5714030000381,
+        "opsPerSecond": 13.777497762075718,
+        "totalWallMs": 1451.6424060000572
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 83.78151700017042,
+        "maxMs": 1888.5383890001103,
+        "meanMs": 879.1103957500309,
+        "p50Ms": 717.7532180000562,
+        "p95Ms": 1780.6743509999942,
+        "p99Ms": 1888.5383890001103,
+        "opsPerSecond": 10.589754398747045,
+        "totalWallMs": 1888.6179269999266
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 150.53155900002457,
+        "maxMs": 1703.3324860001449,
+        "meanMs": 836.8462654000498,
+        "p50Ms": 753.4860729998909,
+        "p95Ms": 1574.9228120001499,
+        "p99Ms": 1703.3324860001449,
+        "opsPerSecond": 11.741136407426499,
+        "totalWallMs": 1703.4126260001212
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 54.30844900012016,
+        "maxMs": 418.84901699982584,
+        "meanMs": 140.50060865000123,
+        "p50Ms": 118.6273640000727,
+        "p95Ms": 190.60096200020052,
+        "p99Ms": 418.84901699982584,
+        "opsPerSecond": 7.117331851475427,
+        "totalWallMs": 2810.0417989999987
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 159.4748819998931,
+        "maxMs": 313.3268200000748,
+        "meanMs": 211.7162844999926,
+        "p50Ms": 201.04437999986112,
+        "p95Ms": 292.3928270000033,
+        "p99Ms": 313.3268200000748,
+        "opsPerSecond": 4.7232674256083245,
+        "totalWallMs": 4234.356896999991
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 93.62908100010827,
+        "maxMs": 693.7931979999412,
+        "meanMs": 295.6581343000056,
+        "p50Ms": 247.6150909999851,
+        "p95Ms": 650.9959049997851,
+        "p99Ms": 693.7931979999412,
+        "opsPerSecond": 12.141620175840643,
+        "totalWallMs": 1647.2266230001114
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 165.608130000066,
+        "maxMs": 805.1230179998092,
+        "meanMs": 368.0674973999732,
+        "p50Ms": 312.00263400003314,
+        "p95Ms": 611.4952459998894,
+        "p99Ms": 805.1230179998092,
+        "opsPerSecond": 9.425946990160226,
+        "totalWallMs": 2121.8027239998337
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 68.12369999988005,
+        "maxMs": 1915.9122140000109,
+        "meanMs": 657.6805997000308,
+        "p50Ms": 473.6027400000021,
+        "p95Ms": 1600.3262790001463,
+        "p99Ms": 1915.9122140000109,
+        "opsPerSecond": 10.438629085572623,
+        "totalWallMs": 1915.9604040000122
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 194.70569800003432,
+        "maxMs": 1028.900767999934,
+        "meanMs": 516.3578299499932,
+        "p50Ms": 403.9691570000723,
+        "p95Ms": 908.2997039998882,
+        "p99Ms": 1028.900767999934,
+        "opsPerSecond": 13.25584301553896,
+        "totalWallMs": 1508.7686219997704
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 78.75814400007948,
+        "maxMs": 1784.8798470001202,
+        "meanMs": 748.5563154500211,
+        "p50Ms": 748.6352679999545,
+        "p95Ms": 1377.0844240000006,
+        "p99Ms": 1784.8798470001202,
+        "opsPerSecond": 11.204700199629409,
+        "totalWallMs": 1784.9652060000226
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 167.3908840001095,
+        "maxMs": 1676.5795340000186,
+        "meanMs": 759.0061662999913,
+        "p50Ms": 598.0168049999047,
+        "p95Ms": 1465.686297000153,
+        "p99Ms": 1676.5795340000186,
+        "opsPerSecond": 11.92852079877495,
+        "totalWallMs": 1676.6538229999132
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-put-same-object-single-iad-2f1",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 107.10907699982636,
+        "maxMs": 1672.2480860000942,
+        "meanMs": 807.187534600019,
+        "p50Ms": 730.6300809998065,
+        "p95Ms": 1594.0559190001804,
+        "p99Ms": 1672.2480860000942,
+        "opsPerSecond": 11.959291239947138,
+        "totalWallMs": 1672.3399070000742
+      }
+    },
+    {
+      "operation": "put-same-object",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-put-same-object-multi-usa-1af4",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 188.3415090001654,
+        "maxMs": 1398.8262519999407,
+        "meanMs": 815.773906300019,
+        "p50Ms": 785.5623850000557,
+        "p95Ms": 1300.0837600000668,
+        "p99Ms": 1398.8262519999407,
+        "opsPerSecond": 14.296510704242674,
+        "totalWallMs": 1398.942750000162
+      }
+    }
+  ]
+}

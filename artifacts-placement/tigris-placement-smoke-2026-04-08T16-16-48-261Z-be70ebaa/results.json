@@ -1,0 +1,42 @@
+{
+  "runId": "tigris-placement-smoke-2026-04-08T16-16-48-261Z-be70ebaa",
+  "createdAt": "2026-04-08T16:16:48.263Z",
+  "results": [
+    {
+      "operation": "put-new",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-smoke-put-new-single-iad-d9fcb3b3",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 3,
+        "minMs": 63.640075000000024,
+        "maxMs": 99.9079569999999,
+        "meanMs": 79.30881066666666,
+        "p50Ms": 74.37840000000006,
+        "p95Ms": 99.9079569999999,
+        "p99Ms": 99.9079569999999,
+        "opsPerSecond": 12.603639358841608,
+        "totalWallMs": 238.02648699999997
+      }
+    },
+    {
+      "operation": "put-new",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-smoke-put-new-multi-usa-a3dcf596",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 3,
+        "minMs": 174.98362099999986,
+        "maxMs": 212.05933200000004,
+        "meanMs": 190.42113966666662,
+        "p50Ms": 184.220466,
+        "p95Ms": 212.05933200000004,
+        "p99Ms": 212.05933200000004,
+        "opsPerSecond": 5.251296110464922,
+        "totalWallMs": 571.2875329999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "runId": "tigris-placement-us-random-final-remove-2026-04-08T16-39-48-098Z-1e627a7f",
+  "createdAt": "2026-04-08T16:42:28.400Z",
+  "results": [
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 53.05637300002854,
+        "maxMs": 136.1189599999925,
+        "meanMs": 78.49813644999522,
+        "p50Ms": 72.52699799998663,
+        "p95Ms": 115.79996800003573,
+        "p99Ms": 136.1189599999925,
+        "opsPerSecond": 12.738812008735447,
+        "totalWallMs": 1570.0051140000578
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 122.43114699993748,
+        "maxMs": 205.07708600000478,
+        "meanMs": 162.85330620000605,
+        "p50Ms": 157.99834900000133,
+        "p95Ms": 201.61349000001792,
+        "p99Ms": 205.07708600000478,
+        "opsPerSecond": 6.140327212695067,
+        "totalWallMs": 3257.1554100000067
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 47.92050000000745,
+        "maxMs": 115.96023799991235,
+        "meanMs": 83.34300789998379,
+        "p50Ms": 90.33368200005498,
+        "p95Ms": 111.47959100001026,
+        "p99Ms": 115.96023799991235,
+        "opsPerSecond": 43.068405259515316,
+        "totalWallMs": 464.37753800000064
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 120.98129599995445,
+        "maxMs": 172.23853600001894,
+        "meanMs": 146.6050743999891,
+        "p50Ms": 149.60310299997218,
+        "p95Ms": 167.7169409999624,
+        "p99Ms": 172.23853600001894,
+        "opsPerSecond": 26.997273732956604,
+        "totalWallMs": 740.8155430000043
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 44.02066899999045,
+        "maxMs": 343.5447789999889,
+        "meanMs": 90.58659579999512,
+        "p50Ms": 72.16987099999096,
+        "p95Ms": 145.75337399996351,
+        "p99Ms": 343.5447789999889,
+        "opsPerSecond": 47.555362609711345,
+        "totalWallMs": 420.562453999999
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 132.18577599991113,
+        "maxMs": 259.26179000001866,
+        "meanMs": 172.0910093500046,
+        "p50Ms": 162.7822959999321,
+        "p95Ms": 228.41153700009454,
+        "p99Ms": 259.26179000001866,
+        "opsPerSecond": 41.40280066637528,
+        "totalWallMs": 483.05910899990704
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 42.76669399999082,
+        "maxMs": 137.90927900001407,
+        "meanMs": 97.70658500000135,
+        "p50Ms": 99.87346000003163,
+        "p95Ms": 121.19406600005459,
+        "p99Ms": 137.90927900001407,
+        "opsPerSecond": 99.3915231077147,
+        "totalWallMs": 201.22440399997868
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 136.12982199992985,
+        "maxMs": 275.3416669999715,
+        "meanMs": 190.15417165000108,
+        "p50Ms": 184.6739579999121,
+        "p95Ms": 228.64998400001787,
+        "p99Ms": 275.3416669999715,
+        "opsPerSecond": 60.77723545371902,
+        "totalWallMs": 329.0705780000426
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 45.21697700000368,
+        "maxMs": 137.4562820000574,
+        "meanMs": 65.53267539999797,
+        "p50Ms": 46.97796799999196,
+        "p95Ms": 122.63574199995492,
+        "p99Ms": 137.4562820000574,
+        "opsPerSecond": 144.6458102161607,
+        "totalWallMs": 138.2687820000574
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 1024,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 184.00537999998778,
+        "maxMs": 210.13867300003767,
+        "meanMs": 189.3060918000061,
+        "p50Ms": 186.50245700008236,
+        "p95Ms": 200.30946399993263,
+        "p99Ms": 210.13867300003767,
+        "opsPerSecond": 94.93958844455332,
+        "totalWallMs": 210.66027700004634
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 54.007600999902934,
+        "maxMs": 107.66439799999353,
+        "meanMs": 72.8583843499946,
+        "p50Ms": 67.4398570000194,
+        "p95Ms": 101.26610499992967,
+        "p99Ms": 107.66439799999353,
+        "opsPerSecond": 13.724994996913628,
+        "totalWallMs": 1457.195430999971
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 121.8934639999643,
+        "maxMs": 225.0988860001089,
+        "meanMs": 169.58835510000935,
+        "p50Ms": 170.5693269999465,
+        "p95Ms": 191.71970400004648,
+        "p99Ms": 225.0988860001089,
+        "opsPerSecond": 5.896569227930783,
+        "totalWallMs": 3391.8027970000403
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 43.62111099995673,
+        "maxMs": 106.15906400000677,
+        "meanMs": 79.68331544999383,
+        "p50Ms": 77.75771999999415,
+        "p95Ms": 104.72394100006204,
+        "p99Ms": 106.15906400000677,
+        "opsPerSecond": 46.7964153281359,
+        "totalWallMs": 427.3831629999913
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 141.08238299994264,
+        "maxMs": 192.9871849999763,
+        "meanMs": 169.80907200000365,
+        "p50Ms": 171.1691989999963,
+        "p95Ms": 191.64041600003839,
+        "p99Ms": 192.9871849999763,
+        "opsPerSecond": 22.217920536566037,
+        "totalWallMs": 900.1742520000553
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 68.13662300002761,
+        "maxMs": 135.6399580000434,
+        "meanMs": 97.22114935000427,
+        "p50Ms": 91.47975800000131,
+        "p95Ms": 130.26555699994788,
+        "p99Ms": 135.6399580000434,
+        "opsPerSecond": 62.489923890359215,
+        "totalWallMs": 320.0515979998745
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 165.45012799999677,
+        "maxMs": 227.12094800011255,
+        "meanMs": 194.78228109998162,
+        "p50Ms": 192.85409800009802,
+        "p95Ms": 213.60007699998096,
+        "p99Ms": 227.12094800011255,
+        "opsPerSecond": 35.049435107732826,
+        "totalWallMs": 570.6226059999317
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 62.49287900002673,
+        "maxMs": 121.05003000004217,
+        "meanMs": 90.8081164000323,
+        "p50Ms": 87.0215620000381,
+        "p95Ms": 121.03163300012238,
+        "p99Ms": 121.05003000004217,
+        "opsPerSecond": 97.19247342844082,
+        "totalWallMs": 205.77725100005046
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 128.09524299995974,
+        "maxMs": 194.51127500017174,
+        "meanMs": 148.83502449997468,
+        "p50Ms": 148.38410599995404,
+        "p95Ms": 183.7824959999416,
+        "p99Ms": 194.51127500017174,
+        "opsPerSecond": 72.74350696185863,
+        "totalWallMs": 274.9386279999744
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 74.42964800004847,
+        "maxMs": 121.41523299994878,
+        "meanMs": 110.89620090002427,
+        "p50Ms": 116.00171899981797,
+        "p95Ms": 121.22704000002705,
+        "p99Ms": 121.41523299994878,
+        "opsPerSecond": 164.1662855409842,
+        "totalWallMs": 121.82769399997778
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 10240,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 162.33729799999855,
+        "maxMs": 217.55636700009927,
+        "meanMs": 174.40422430002363,
+        "p50Ms": 166.49488200014457,
+        "p95Ms": 196.61560100014322,
+        "p99Ms": 217.55636700009927,
+        "opsPerSecond": 91.68056830581715,
+        "totalWallMs": 218.14873500005342
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 43.81426399992779,
+        "maxMs": 142.42736999993213,
+        "meanMs": 76.22934464998544,
+        "p50Ms": 71.57363800005987,
+        "p95Ms": 120.06526799988933,
+        "p99Ms": 142.42736999993213,
+        "opsPerSecond": 13.11804101493043,
+        "totalWallMs": 1524.6178890001029
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 1,
+      "stats": {
+        "count": 20,
+        "minMs": 130.17834900016896,
+        "maxMs": 232.40878900000826,
+        "meanMs": 161.60433120002273,
+        "p50Ms": 157.47554900008254,
+        "p95Ms": 199.7682470001746,
+        "p99Ms": 232.40878900000826,
+        "opsPerSecond": 6.187886620625586,
+        "totalWallMs": 3232.121276000049
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 44.78163399989717,
+        "maxMs": 99.31314600002952,
+        "meanMs": 63.02053674994968,
+        "p50Ms": 59.90290700015612,
+        "p95Ms": 90.48069099988788,
+        "p99Ms": 99.31314600002952,
+        "opsPerSecond": 55.6631976657034,
+        "totalWallMs": 359.3038279998582
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 4,
+      "stats": {
+        "count": 20,
+        "minMs": 117.4557400001213,
+        "maxMs": 188.4120339998044,
+        "meanMs": 146.42704210000812,
+        "p50Ms": 142.13225000002421,
+        "p95Ms": 186.8419190000277,
+        "p99Ms": 188.4120339998044,
+        "opsPerSecond": 26.94423369600502,
+        "totalWallMs": 742.2738469999749
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 65.92027800017968,
+        "maxMs": 128.72939800005406,
+        "meanMs": 91.92618305000943,
+        "p50Ms": 90.47492199996486,
+        "p95Ms": 126.94616500008851,
+        "p99Ms": 128.72939800005406,
+        "opsPerSecond": 72.08135693010286,
+        "totalWallMs": 277.46425499999896
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 8,
+      "stats": {
+        "count": 20,
+        "minMs": 133.46189899998717,
+        "maxMs": 213.11458300007507,
+        "meanMs": 161.14954765000147,
+        "p50Ms": 162.13824899983592,
+        "p95Ms": 185.7213950001169,
+        "p99Ms": 213.11458300007507,
+        "opsPerSecond": 40.805554780188885,
+        "totalWallMs": 490.1293490000535
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 78.60490799997933,
+        "maxMs": 119.32231099996716,
+        "meanMs": 99.7210640000063,
+        "p50Ms": 101.42363300011493,
+        "p95Ms": 110.91239399998449,
+        "p99Ms": 119.32231099996716,
+        "opsPerSecond": 101.16434137642612,
+        "totalWallMs": 197.69811900006607
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 16,
+      "stats": {
+        "count": 20,
+        "minMs": 130.05921700014733,
+        "maxMs": 163.34603699995205,
+        "meanMs": 152.22913834997453,
+        "p50Ms": 156.82065599993803,
+        "p95Ms": 160.4636369999498,
+        "p99Ms": 163.34603699995205,
+        "opsPerSecond": 69.87196577151035,
+        "totalWallMs": 286.2378319997806
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "single-iad",
+      "bucket": "tigris-placement-us-random-final-remove-single-iad-825dfe59",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 75.20412900019437,
+        "maxMs": 90.41839599981904,
+        "meanMs": 78.8347634000238,
+        "p50Ms": 77.27064200001769,
+        "p95Ms": 87.10656200000085,
+        "p99Ms": 90.41839599981904,
+        "opsPerSecond": 221.1705709020129,
+        "totalWallMs": 90.42794400011189
+      }
+    },
+    {
+      "operation": "remove",
+      "scenarioId": "multi-usa",
+      "bucket": "tigris-placement-us-random-final-remove-multi-usa-9b839e01",
+      "objectSizeBytes": 102400,
+      "concurrency": 32,
+      "stats": {
+        "count": 20,
+        "minMs": 139.266632999992,
+        "maxMs": 201.4254390001297,
+        "meanMs": 161.61275629999582,
+        "p50Ms": 150.1491419998929,
+        "p95Ms": 200.83147799992003,
+        "p99Ms": 201.4254390001297,
+        "opsPerSecond": 99.07046050657232,
+        "totalWallMs": 201.87652199994773
+      }
+    }
+  ]
+}

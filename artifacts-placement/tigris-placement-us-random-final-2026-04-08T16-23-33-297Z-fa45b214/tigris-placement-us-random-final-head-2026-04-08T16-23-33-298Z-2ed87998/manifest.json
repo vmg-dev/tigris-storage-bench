@@ -1,0 +1,51 @@
+{
+  "runId": "tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998",
+  "createdAt": "2026-04-08T16:23:33.517Z",
+  "options": {
+    "prefix": "tigris-placement-us-random-final-head",
+    "objectSizesBytes": [
+      1024,
+      10240,
+      102400
+    ],
+    "concurrencies": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "iterations": 20,
+    "warmup": 5,
+    "listObjectCount": 128,
+    "keepBuckets": false,
+    "artifactsRoot": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214",
+    "endpoint": "https://t3.storage.dev",
+    "operations": [
+      "head"
+    ],
+    "singleRegion": "iad",
+    "multiRegion": "usa"
+  },
+  "scenarios": [
+    {
+      "id": "single-iad",
+      "label": "single/iad",
+      "bucket": "tigris-placement-us-random-final-head-single-iad-38944701",
+      "locations": {
+        "type": "single",
+        "values": "iad"
+      }
+    },
+    {
+      "id": "multi-usa",
+      "label": "multi/usa",
+      "bucket": "tigris-placement-us-random-final-head-multi-usa-7f53f875",
+      "locations": {
+        "type": "multi",
+        "values": "usa"
+      }
+    }
+  ],
+  "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998"
+}

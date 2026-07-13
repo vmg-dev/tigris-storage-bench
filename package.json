@@ -6,8 +6,10 @@
   "description": "Benchmark Tigris object storage bucket performance across normal, snapshot-enabled, and layered fork buckets.",
   "scripts": {
     "benchmark": "tsx src/cli.ts benchmark",
+    "benchmark:placement": "tsx src/placement-cli.ts benchmark",
     "benchmark:go": "go run ./cmd/tigris-storage-bench-go benchmark",
     "cleanup": "tsx src/cli.ts cleanup",
+    "cleanup:placement": "tsx src/placement-cli.ts cleanup",
     "cleanup:go": "go run ./cmd/tigris-storage-bench-go cleanup",
     "typecheck": "tsc --noEmit"
   },

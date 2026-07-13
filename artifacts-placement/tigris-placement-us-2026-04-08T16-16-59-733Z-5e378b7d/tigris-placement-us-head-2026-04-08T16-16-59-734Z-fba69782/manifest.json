@@ -1,0 +1,51 @@
+{
+  "runId": "tigris-placement-us-head-2026-04-08T16-16-59-734Z-fba69782",
+  "createdAt": "2026-04-08T16:17:00.032Z",
+  "options": {
+    "prefix": "tigris-placement-us-head",
+    "objectSizesBytes": [
+      1024,
+      10240,
+      102400
+    ],
+    "concurrencies": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "iterations": 20,
+    "warmup": 5,
+    "listObjectCount": 128,
+    "keepBuckets": false,
+    "artifactsRoot": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-2026-04-08T16-16-59-733Z-5e378b7d",
+    "endpoint": "https://t3.storage.dev",
+    "operations": [
+      "head"
+    ],
+    "singleRegion": "iad",
+    "multiRegion": "usa"
+  },
+  "scenarios": [
+    {
+      "id": "single-iad",
+      "label": "single/iad",
+      "bucket": "tigris-placement-us-head-single-iad-723cd1e9",
+      "locations": {
+        "type": "single",
+        "values": "iad"
+      }
+    },
+    {
+      "id": "multi-usa",
+      "label": "multi/usa",
+      "bucket": "tigris-placement-us-head-multi-usa-044a4288",
+      "locations": {
+        "type": "multi",
+        "values": "usa"
+      }
+    }
+  ],
+  "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-2026-04-08T16-16-59-733Z-5e378b7d/tigris-placement-us-head-2026-04-08T16-16-59-734Z-fba69782"
+}

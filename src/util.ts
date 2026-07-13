@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from 'node:fs/promises';
-import { randomUUID } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 import { resolve } from 'node:path';
 
 export function sanitizeBucketPart(value: string): string {
@@ -24,11 +24,14 @@ export function makeRunId(prefix: string): string {
 }
 
 export function createPayload(sizeBytes: number, seed: string): Buffer {
-  const chunk = Buffer.from(`${seed}|`);
-  const payload = Buffer.alloc(sizeBytes);
-  for (let offset = 0; offset < sizeBytes; offset += chunk.length) {
-    chunk.copy(payload, offset, 0, Math.min(chunk.length, sizeBytes - offset));
+  const payload = Buffer.allocUnsafe(sizeBytes);
+
+  for (let offset = 0, counter = 0; offset < sizeBytes; counter += 1) {
+    const block = createHash('sha256').update(seed).update(':').update(String(counter)).digest();
+    block.copy(payload, offset, 0, Math.min(block.length, sizeBytes - offset));
+    offset += block.length;
   }
+
   return payload;
 }
 

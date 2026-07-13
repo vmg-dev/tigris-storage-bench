@@ -1,0 +1,85 @@
+{
+  "runId": "tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214",
+  "createdAt": "2026-04-08T16:43:56.409Z",
+  "options": {
+    "prefix": "tigris-placement-us-random-final",
+    "objectSizesBytes": [
+      1024,
+      10240,
+      102400
+    ],
+    "concurrencies": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "iterations": 20,
+    "warmup": 5,
+    "listObjectCount": 128,
+    "keepBuckets": false,
+    "artifactsRoot": "/root/tigris-storage-bench/artifacts-placement",
+    "endpoint": "https://t3.storage.dev",
+    "operations": [
+      "head",
+      "get",
+      "list-prefix",
+      "put-new",
+      "remove",
+      "put-same-object"
+    ],
+    "singleRegion": "iad",
+    "multiRegion": "usa"
+  },
+  "operationRuns": [
+    {
+      "operation": "head",
+      "runId": "tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998",
+      "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998",
+      "manifestPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998/manifest.json",
+      "resultsPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998/results.json",
+      "summaryPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-head-2026-04-08T16-23-33-298Z-2ed87998/summary.md"
+    },
+    {
+      "operation": "get",
+      "runId": "tigris-placement-us-random-final-get-2026-04-08T16-25-43-409Z-fa1ecd88",
+      "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-get-2026-04-08T16-25-43-409Z-fa1ecd88",
+      "manifestPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-get-2026-04-08T16-25-43-409Z-fa1ecd88/manifest.json",
+      "resultsPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-get-2026-04-08T16-25-43-409Z-fa1ecd88/results.json",
+      "summaryPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-get-2026-04-08T16-25-43-409Z-fa1ecd88/summary.md"
+    },
+    {
+      "operation": "list-prefix",
+      "runId": "tigris-placement-us-random-final-list-prefix-2026-04-08T16-27-58-219Z-0d912823",
+      "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-list-prefix-2026-04-08T16-27-58-219Z-0d912823",
+      "manifestPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-list-prefix-2026-04-08T16-27-58-219Z-0d912823/manifest.json",
+      "resultsPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-list-prefix-2026-04-08T16-27-58-219Z-0d912823/results.json",
+      "summaryPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-list-prefix-2026-04-08T16-27-58-219Z-0d912823/summary.md"
+    },
+    {
+      "operation": "put-new",
+      "runId": "tigris-placement-us-random-final-put-new-2026-04-08T16-38-58-017Z-5fb11bca",
+      "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-new-2026-04-08T16-38-58-017Z-5fb11bca",
+      "manifestPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-new-2026-04-08T16-38-58-017Z-5fb11bca/manifest.json",
+      "resultsPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-new-2026-04-08T16-38-58-017Z-5fb11bca/results.json",
+      "summaryPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-new-2026-04-08T16-38-58-017Z-5fb11bca/summary.md"
+    },
+    {
+      "operation": "remove",
+      "runId": "tigris-placement-us-random-final-remove-2026-04-08T16-39-48-098Z-1e627a7f",
+      "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-remove-2026-04-08T16-39-48-098Z-1e627a7f",
+      "manifestPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-remove-2026-04-08T16-39-48-098Z-1e627a7f/manifest.json",
+      "resultsPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-remove-2026-04-08T16-39-48-098Z-1e627a7f/results.json",
+      "summaryPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-remove-2026-04-08T16-39-48-098Z-1e627a7f/summary.md"
+    },
+    {
+      "operation": "put-same-object",
+      "runId": "tigris-placement-us-random-final-put-same-object-2026-04-08T16-42-28-643Z-ae474c03",
+      "artifactDir": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-same-object-2026-04-08T16-42-28-643Z-ae474c03",
+      "manifestPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-same-object-2026-04-08T16-42-28-643Z-ae474c03/manifest.json",
+      "resultsPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-same-object-2026-04-08T16-42-28-643Z-ae474c03/results.json",
+      "summaryPath": "/root/tigris-storage-bench/artifacts-placement/tigris-placement-us-random-final-2026-04-08T16-23-33-297Z-fa45b214/tigris-placement-us-random-final-put-same-object-2026-04-08T16-42-28-643Z-ae474c03/summary.md"
+    }
+  ]
+}
